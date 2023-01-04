@@ -22,24 +22,18 @@ const WhyRegister = () => {
                         <div className="col-sm">
                             <div className='right_div'>
                                 <div className="row">
-                                    <img className='row_image_class' src={Group290Img} />
-                                    <span>
-                                        <p className=''>Keep the history of all your chats, questions and callback requests</p>
-                                    </span>
+                                    <span>   <img className='row_image_class' src={Group290Img} /></span>
+                                    <span> Keep the history of all your chats, questions and callback requests  </span>
 
                                 </div>
                                 <div className="row">
-                                    <img className='row_image_class' src={CircleMen} />
-                                    <span>
-                                        <p className=''>Track your interactions with lawyers and receive notifications</p>
-                                    </span>
+                                    <span> <img className='row_image_class' src={CircleMen} /></span>
+                                    <span> Track your interactions with lawyers and receive notifications </span>
                                 </div>
 
                                 <div className="row">
-                                    <img className='row_image_class' src={Notification} />
-                                    <span>
-                                        <p className=''>Track your interactions with lawyers and receive notifications</p>
-                                    </span>
+                                    <span><img className='row_image_class' src={Notification} /></span>
+                                    <span>  Track your interactions with lawyers and receive notifications </span>
                                 </div>
 
 
@@ -51,5 +45,4 @@ const WhyRegister = () => {
         </>
     )
 }
-
 export default WhyRegister

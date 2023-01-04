@@ -1832,8 +1832,12 @@ responsive
 
  }
 
- .circle_arrow_img{
-  width: 43px;
-  height: 43px;
+ .circle_arrow_img {
+   width: 43px;
+   height: 43px;
 
  }
+
+ .row_image_class {
+   width: 43px;
+  }
