@@ -1,0 +1,129 @@
+.services-container {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    /* padding: 5%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px black solid; */
+}
+
+.service-wrapper {
+    margin: 2%;
+    padding: 2%;
+    /* border: 1px black dashed; */
+    height: 100%;
+    width: 100%; 
+    border-radius: 5px;    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-left-container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    /* margin-right: 40%; */
+    width: 100%;
+    
+   
+}
+
+.services-right-container {
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+   /* border: 1px solid black; */
+}
+
+
+.client-says {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    padding: 5%;
+}
+
+.testimonials{
+    /* position: absolute; */
+width: 163px;
+height: 37px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 167.5%;
+
+/* identical to box height, or 37px */
+letter-spacing: 0.06em;
+color: #3DC9A1;
+text-align: left;
+}
+
+.client-says-header {
+    display: flex;
+    flex-direction: row;
+}
+
+.heading-client-says {
+    width: 100%;
+}
+
+.what-client-says{
+width: 300px;
+height: 144px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 72px;
+
+color: #208C84;
+
+}
+
+.body-text1 {
+width: 525px;
+height: 220px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 167.5%;
+/* or 40px */
+color: #191919;
+}
+
+.quote-div {
+    display:flex ;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-right: 30%;
+}
+
+
+.first-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.client-container {
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    /* background-image: url('../images/rectangle-105.png'); */
+}
+
+/* .client-container-img-2 {
+    background-image: url('../images/rectangle-104.png');
+} */

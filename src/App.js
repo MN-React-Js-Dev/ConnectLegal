@@ -9,6 +9,8 @@ import Header from './Component/Navbar/Header';
 import Footer from './Component/Navbar/Footer';
 import LookingForLawyerSection from './Component/LookingForLawyerSection';
 import WhyRegister from './Component/WhyRegister';
+import ServicesContainer from './Component/ServicesContainer';
+
 
 function App() {
   return (
@@ -16,6 +18,7 @@ function App() {
       <Header/>
       <LookingForLawyerSection/>
       <WhyRegister/>
+      <ServicesContainer />
       <Footer/>
     </>
   );
