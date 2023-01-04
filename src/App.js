@@ -7,11 +7,15 @@ import './assets/css/owl.css'
 import './assets/vendor/bootstrap/css/bootstrap.min.css'
 import Header from './Component/Navbar/Header';
 import Footer from './Component/Navbar/Footer';
+import LookingForLawyerSection from './Component/LookingForLawyerSection';
+import WhyRegister from './Component/WhyRegister';
 
 function App() {
   return (
     <>
       <Header/>
+      <LookingForLawyerSection/>
+      <WhyRegister/>
       <Footer/>
     </>
   );
