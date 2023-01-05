@@ -1,0 +1,104 @@
+.mainContainer {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    /* margin-left: 5%;
+    margin-right: 5%; */
+    /* padding: 5px; */
+    
+}
+
+.innerContainer {
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+}   
+
+.left-Container {
+    /* border: 1px black dashed; */
+    width: 650px;
+    height: 500px;
+    background: #C2DDE4;
+    border-radius: 5px;
+    background-image: url('../images/group-570.png');
+    background-size: 720px 480px;
+    background-repeat: no-repeat;
+   
+}
+
+.pro-services {
+    height: 72px;
+    width: 315px;
+    border-radius: nullpx;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 72px;
+    color: #156075;
+    margin-top: 20%;
+    margin-left: 5%;
+}
+
+.appointment{
+    /* position: absolute; */
+width: 607px;
+height: 78px;
+margin-left: 5%;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 167.5%;
+/* or 33px */
+color: #191919;
+}
+
+.appointment-grp {
+    margin-left: 10%;
+    width: 109%;
+    margin-bottom: 10%;
+}
+.appointment-text {
+    height: 40%;
+    width: 40%;
+    margin-left: 5%;
+}
+
+.right-sign {
+    width: 16px;
+    height: 10px;
+    line-height: 148%;
+    /* margin-top: 20%; */
+}
+
+.arrow-img {
+    margin-top: 10%;
+    height: 50%;
+    width: 50%;
+}
+
+.right-Container {
+    /* border: 1px black dashed; */
+    width: 650px;
+    height: 500px;
+    background: #EDEEC6;
+    border-radius: 5px;
+    background-image: url('../images/group-571.png');
+    background-size: 640px 450px;
+    background-repeat: no-repeat;
+}
+
+
+.legal-header {
+    width: 400px;
+    height: 100px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 50px;
+    margin-top: 13%;
+    margin-left: 5%;
+    color: #3F3309;
+}   
