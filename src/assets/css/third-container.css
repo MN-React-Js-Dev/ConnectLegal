@@ -1,37 +1,22 @@
 .main-container{
-    width: 1592px;
-    height: 705px;
     background: #D8F4EC;
     padding: 70px;
     display: flex;
     flex-direction: row;
-    /* top: 10px; */
 }
-.first-container{
-    /* position: absolute; */
-    width: 607px;
-    height: 564px;
-    
+.first-container{ 
     background: #FFFFFF;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
     border-radius: 15px;
     padding: 20px;
-
 }
 .second-container{
     width: 607px;
     height: 564px;
-    
-    /* background: #FFFFFF; */
-    /* box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1); */
     border-radius: 15px;
     padding: 20px;
 }
-.first-container-headding{
-    
-}
 .user-data{
-    /* position: absolute; */
 width: 543px;
 height: 78px;
 
@@ -46,13 +31,30 @@ border-radius: 10px;
     border-radius: 10px;  
 }
 .img-data{
-    /* position: absolute; */
 width: 54.69px;
 height: 53.77px;
+margin: 13px;
 
 }
 .user-img{
-    /* position: absolute; */
     width: 662.48px;
     height: 716px;
+}
+.first-container-test{
+    color: #208C84;
+}
+.img-button{
+    position: relative;
+    margin: 100px;
+    margin-inline: unset;
+}
+ 
+.test-sub{
+    font-size: 48px;  
+  font-family: "Poppins";
+
+}
+.para_for_multipele_layers{
+    font-size: 48px;  
+    font-family: "Poppins";  
 }
