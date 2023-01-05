@@ -1,0 +1,53 @@
+.client-review-container {
+    display: flex;
+    flex-direction: column;
+    padding: 6%;
+    justify-content: space-between;
+}
+
+.client-review {
+    position: absolute;
+    width: 415px;
+    height: 165px;
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 167.5%;
+    /* or 27px */
+    color: #191919;
+}
+
+.cleints-personal {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+}
+
+.client-img {
+    display: flex;
+    flex-direction: row;
+}
+
+.images-client1 {
+    height: 58px;
+    width: 59px;
+    border-radius: 0px;
+    margin-top: 210%;
+}
+
+.name-client1 {
+    position: absolute;
+    height: 49px;
+    width: 120px;
+    margin-top: 215%;
+    margin-left: 120%;
+}
+
+.star-section {
+    width: 130px;
+    margin-top: 7%;
+    margin-left: 14.8%;
+    position: absolute;
+    
+}
