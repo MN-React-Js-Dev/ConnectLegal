@@ -1,0 +1,32 @@
+.first-main-container{
+    background-image: url("../images/Rectangle 57 (1).jpg");
+    /* width: 1592px;
+    height: 705px; */
+    /* background: #D8F4EC; */
+    padding: 70px;
+    /* display: flex;
+    flex-direction: row; */
+}
+.first-card-data{
+    /* width: 660px;
+height: 162px; */
+
+background: #D8F4EC;
+}
+.second-card-data{
+    /* width: 660px;
+height: 162px; */
+background: #C2DDE4;
+}
+.third-card-data{
+    /* width: 660px;
+height: 162px; */
+
+background: #EDEEC6;
+}
+.fourth-card-data{
+    /* width: 660px;
+height: 162px; */
+
+background: #3DC9A1;
+}
