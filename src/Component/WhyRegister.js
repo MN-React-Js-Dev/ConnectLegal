@@ -35,8 +35,6 @@ const WhyRegister = () => {
                                     <span><img className='row_image_class' src={Notification} /></span>
                                     <span>  Track your interactions with lawyers and receive notifications </span>
                                 </div>
-
-
                             </div>
                         </div>
                     </div>

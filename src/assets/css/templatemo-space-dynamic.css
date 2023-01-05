@@ -1690,7 +1690,8 @@ responsive
  }
 
  .div_main {
-   height: 736px;
+   /* height: 736px; */
+   height: 700px;
    width: 1920px;
    left: -864px;
    top: -699px;
@@ -1700,16 +1701,16 @@ responsive
  }
 
  .Looking_for_lawyer {
-
-   background: #E8F8F2;
+   background: #F4FEFA;
  }
 
  .AdobeImgimage_class {
-   height: 615px;
-   width: 568px;
-   left: -608px;
-   top: -601px;
-   border-radius: 16px;
+   /* max-height: 615px; */
+   max-width: 568px;
+
+   /* left: -608px;
+   top: -601px; */
+   /* border-radius: 16px; */
 
  }
 
@@ -1756,8 +1757,8 @@ responsive
    left: 200px;
    top: -494px;
    border-radius: nullpx;
-   margin: 60px;
-   padding-top: 100px;
+   margin-top: 60px;
+   /* padding-top: 100px; */
  }
 
  span.button_arrow_handle {
@@ -1779,25 +1780,22 @@ responsive
  }
 
  .lift_div {
-   position: unset;
-   left: 608px;
-   margin: 60px;
+   text-align: center;
+   /* position: unset; */
+   /* left: 608px; */
+   /* margin: 60px; */
    /* padding-left: 170px; */
  }
 
 
- @media (max-width: 320px) {
-
-   .container.div_main {}
-
+ @media (max-width: 375px) {
    .right_div {
      height: 0px !important;
      left: 200px;
-
      padding-top: 0px;
      top: -494px;
-     border-radius: nullpx;
-     margin: 11px;
+     margin-top: 0px;
+     margin-left: 38px;
    }
 
    .rightdiv_heading {
@@ -1829,8 +1827,50 @@ responsive
      font-size: 15px;
    }
 
+ }
+
+ @media (max-width: 320px) {
+   .right_div {
+     height: 0px !important;
+     left: 200px;
+     padding-top: 0px;
+     top: -494px;
+     border-radius: nullpx;
+     margin: 11px;
+     margin-top: 0px;
+   }
+
+   .rightdiv_heading {
+     height: 54px;
+     width: 565px;
+     left: 200px;
+     top: -443px;
+     border-radius: nullpx;
+     font-size: 24px;
+     font-family: "Poppins";
+   }
+
+   .AdobeImgimage_class {
+     max-width: 218px;
+     max-height: 187px;
+   }
+
+   .rightdiv_para {
+     width: 314px;
+     left: 200px;
+     top: -370px;
+     border-radius: nullpx;
+     font: bold;
+     font-size: 16px;
+     font-family: "Poppins";
+   }
+
+   .greenline_para {
+     font-size: 15px;
+   }
 
  }
+
 
  .circle_arrow_img {
    width: 43px;
@@ -1840,4 +1880,94 @@ responsive
 
  .row_image_class {
    width: 43px;
+ }
+
+ .findleagal_con {
+   height: 1065px;
+   width: 1920px;
+   background: #E8F8F2;
+ }
+
+ .connect-mobile {
+   margin-top: 110px;
+   width: 409px;
+   float: right;
+ }
+
+ .custm-span-connact {
+   /* font-weight: 500;
+  font-size: 22px; */
+
+ }
+
+
+ .UserMen_img {
+   height: 60px;
+   padding: 16px;
+   width: 62px;
+ }
+
+ .heading-leagal-service {
+   color: #3DC9A1;
+   font-weight: 400;
+   font-size: 22px;
+   font-style: "Poppins";
+ }
+
+ .second_ehading_lagal_srvice {
+   font-size: 48px;
+   line-height: 72px;
+   color: #208C84;
+   font-style: "poppins";
+
+ }
+
+ .col-sm-7.right_cstm_legal_div {
+   margin-top: 200px;
+ }
+
+ .col-sm-4.one_extra {
+   background: #C6EEE2;
+ }
+
+ .legal_consultancy {
+   height: 736px;
+   width: auto;
+   background: #e8f8f2;
+ }
+
+ .read_more {
+   color: #3DC9A1;
+
+ }
+
+ /* Find legal Services section media query */
+
+ @media (max-width: 320px) {
+  .header-area {
+    margin-left:-41px;
   }
+   .connect-mobile {
+     width: 317px;
+     text-align: center;
+     margin-top: 36px;
+     float: none;
+   }
+
+   .col-sm-7.right_cstm_legal_div {
+     width: 93%;
+     margin-top: 60px;
+     margin-left: 13px;
+     text-align: left;
+   }
+
+   .new_mobile_class span {
+     font-size: 30px;
+   }
+
+   .legal_consultancy {
+     height: 1400px;
+     width: auto;
+     background: #e8f8f2;
+   }
+ }
