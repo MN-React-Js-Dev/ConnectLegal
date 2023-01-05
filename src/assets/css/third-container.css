@@ -1,0 +1,60 @@
+.main-container{
+    background: #D8F4EC;
+    padding: 70px;
+    display: flex;
+    flex-direction: row;
+}
+.first-container{ 
+    background: #FFFFFF;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 20px;
+}
+.second-container{
+    width: 607px;
+    height: 564px;
+    border-radius: 15px;
+    padding: 20px;
+}
+.user-data{
+width: 543px;
+height: 78px;
+
+background: #E8F8F2;
+border-radius: 10px;
+}
+.user-data-data{
+    width: 543px;
+    height: 78px;
+    
+    background: #F4F4F4;
+    border-radius: 10px;  
+}
+.img-data{
+width: 54.69px;
+height: 53.77px;
+margin: 13px;
+
+}
+.user-img{
+    width: 662.48px;
+    height: 716px;
+}
+.first-container-test{
+    color: #208C84;
+}
+.img-button{
+    position: relative;
+    margin: 100px;
+    margin-inline: unset;
+}
+ 
+.test-sub{
+    font-size: 48px;  
+  font-family: "Poppins";
+
+}
+.para_for_multipele_layers{
+    font-size: 48px;  
+    font-family: "Poppins";  
+}

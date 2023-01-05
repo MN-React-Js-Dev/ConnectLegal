@@ -1,0 +1,39 @@
+.first-main-container{
+    background-image: url("../images/Rectangle 57 (1).jpg"); 
+     padding: 70px;
+}
+.first-card-data{
+background: #D8F4EC;
+}
+.second-card-data{
+background: #C2DDE4;
+}
+.third-card-data{
+background: #EDEEC6;
+}
+.fourth-card-data{
+background: #3DC9A1;
+}
+.online-Legal-text-color{
+    color: #3DC9A1;
+}
+.first-child-container{
+    padding: 50px;
+}
+
+.hero_section_first
+{
+    background: #f4fefa;
+    height: 800px;
+}
+
+/* .hero_section_first{
+    height: 700px;
+    width: auto;
+    background-image: url("../images/Rectangle 57 (1).jpg");
+} */
+
+.cstm_img_btn {
+    width: 208px;
+    text-align: left;
+ }
