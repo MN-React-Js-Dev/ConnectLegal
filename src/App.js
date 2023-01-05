@@ -13,26 +13,41 @@ import SecondContainer from './Component/SecondContainer';
 import Thirdcontainer from './Component/Thirdcontainer';
 import ClientContainer from './Component/ClientContainer';
 import ProServicesContainer from './Component/ProServicesContainer';
+import Home from './Component/Home/Home';
 
 
 function App() {
   return (
     <>
       <Header />
-      <br />
-      <br />
-      <br />
-      <br />
+       
+       
       <FirstContainer />
       <SecondContainer />
       <Thirdcontainer />
+      <Home/>
+      <br />
+      <br />
+      <br />
       <FindLeagalServices />
-      <LookingForLawyerSection />
-      {/* <WhyRegister /> */}
-      {/* <ServicesContainer /> */}
-      
+      <br/>
+      <br/>
+      <br/>
+
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+
       <ProServicesContainer />
       <ClientContainer />
+      <LookingForLawyerSection />
+            
       <Footer />
     </>
   );

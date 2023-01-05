@@ -69,6 +69,11 @@ reset
    outline: 0;
  }
 
+ body {
+   overflow-x: hidden;
+   overflow-y: auto;
+ }
+
  /* clear fix */
  .grid:after {
    content: '';
@@ -1944,9 +1949,10 @@ responsive
  /* Find legal Services section media query */
 
  @media (max-width: 320px) {
-  .header-area {
-    margin-left:-41px;
-  }
+   .header-area {
+     margin-left: -41px;
+   }
+
    .connect-mobile {
      width: 317px;
      text-align: center;
@@ -1970,4 +1976,23 @@ responsive
      width: auto;
      background: #e8f8f2;
    }
+ }
+
+ /* .container.cstm3_div {
+    display: flex;
+    justify-content: space-around;
+} */
+
+ .three_steps {
+   display: flex;
+   justify-content: space-around;
+   /* border: 1px solid black */
+ }
+
+ .cstm3_div {
+   /* display: flex; */
+   justify-content: center;
+
+   /* align-items: center; */
+   /* border: 1px solid black */
  }

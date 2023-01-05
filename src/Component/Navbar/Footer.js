@@ -1,7 +1,10 @@
 import React from 'react'
 import ConnectLogo from '../../assets/images/connectLogio.png'
-const Footer = () => {
+import GroupLogo from "../../assets/images/Group-46.png";
 
+
+const Footer = () => {
+    
     return (
         <>           
             <div class="container my-5">
@@ -14,9 +17,9 @@ const Footer = () => {
                                         Company name
                                     </h6>    */}
                                         {/* <img className='connect-logo-class' src={ConnectLogo}/> */}
+                                        <img className="logo_hero_section" src={GroupLogo}/>
 
-                                    <h4 className='text-white'>Connect Legal</h4>
-                                </div>
+                                 </div>
                                 <hr class="w-100 clearfix d-md-none" />
                                 <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
                                     <h6 class="text-capitalize mb-4 font-weight-bold">About Company</h6>

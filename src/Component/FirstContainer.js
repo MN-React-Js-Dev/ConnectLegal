@@ -17,6 +17,7 @@ function FirstContainer() {
         <Container className="first-main-container">
           <Row>
             <Col class="col-8 first-child-container">
+ 
               <img className="logo_hero_section" src={GroupLogo}/>
                <br />
               <h1 className="text-white">
@@ -28,8 +29,8 @@ function FirstContainer() {
                 <br /> Services
               </h1>
               <p className="text-white">
-                This Platform Provides an opportunity to Connect Lawyers or
-                Legal Consultants with those who are seeking for Legal Advice in
+                This Platform Provides an opportunity to Connect Lawyers or<br/>
+                Legal Consultants with for Legal Advice in
                 UAE
               </p>
               <img class="btn_hero_long  " src={imgData} />

@@ -10,9 +10,8 @@
 .innerContainer {
     display: flex;
     /* border: 1px solid black; */
-    justify-content: space-between;
+    justify-content: center;
 }
-
 .left-Container {
     /* border: 1px black dashed; */
     width: 650px;
@@ -22,7 +21,7 @@
     background-image: url('../images/Grouasdp570.png');
     background-size: 720px 480px;
     background-repeat: no-repeat;
-
+    margin: 10px
 }
 
 .pro-services {
@@ -87,6 +86,7 @@
     background-image: url('../images/group-571.png');
     background-size: 640px 450px;
     background-repeat: no-repeat;
+    margin: 10px
 }
 
 
