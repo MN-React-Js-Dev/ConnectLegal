@@ -20,34 +20,20 @@ function App() {
   return (
     <>
       <Header />
-       
-       
       <FirstContainer />
       <SecondContainer />
+      {/*
       <Thirdcontainer />
       <Home/>
       <br />
       <br />
       <br />
       <FindLeagalServices />
-      <br/>
-      <br/>
-      <br/>
-
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-
+      
       <ProServicesContainer />
       <ClientContainer />
       <LookingForLawyerSection />
-            
+             */}
       <Footer />
     </>
   );

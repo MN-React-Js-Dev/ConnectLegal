@@ -1978,21 +1978,74 @@ responsive
    }
  }
 
- /* .container.cstm3_div {
-    display: flex;
-    justify-content: space-around;
-} */
-
  .three_steps {
    display: flex;
    justify-content: space-around;
-   /* border: 1px solid black */
  }
 
  .cstm3_div {
-   /* display: flex; */
    justify-content: center;
-
-   /* align-items: center; */
-   /* border: 1px solid black */
  }
+
+ .discounts-section {
+   padding: 40px 216px 58px;
+   background-color:#F4FEFA;
+   
+ }
+
+ .discount-heading .main-button {
+   transform-origin: left top;
+ }
+
+ .green-heading-two{
+  color: #208C84;
+ }
+
+ .discounts-img {
+  width: 80%;
+  /* height: 70%; */
+  object-fit: cover;
+  /* float: right; */
+}
+
+ @media (max-width: 575.98px) {
+   .hero_section_first {
+     text-align: left;
+     height: 1380px !important;
+   }
+
+   .btn_hero_long {
+     margin-bottom: 49px;
+     width: 138px !important
+   }
+
+   .we_coonect_section {
+     height: 2500px !important;
+   }
+   .discounts-section {
+    padding: 84px 16px 40px;
+  }
+
+ }
+
+ @media (max-width: 1399.98px) {
+   .discounts-section {
+     padding: 84px 16px 40px;
+   }
+ }
+
+ @media (max-width: 1199.98px) {
+   .discounts-section {
+     padding: 64px 16px 40px;
+   }
+ }
+
+ @media (max-width: 768px) {
+  .reorder {
+    display: flex;
+    flex-direction: column;
+  }
+  #side_panel {
+    order: 2;
+  }
+}
