@@ -1,46 +1,64 @@
+
 import React from 'react'
-import CircleArrow from '../assets/images/circle_arrow.png'
-import CircleMen from '../assets/images/Group292.png'
-import Notification from '../assets/images/notification.png'
-import Group290Img from '../assets/images/Group290.png'
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+
+import eye from '../assets/images/eye.png'
+import Are_You from "../assets/images/Are_You.png";
+import "../assets/css/why-register.css"
 
 
 
 const WhyRegister = () => {
-    return (
-        <>
-            <section className='Looking_for_lawyer' >
-                <div className="container div_main">
-                    <div className="row">
-                        <div className="col-sm">
-                            <div className='lift_div'>
-                                <h1>Why Register?</h1>
-                                <p>Keep the history of all your chats, questions and callback requests. Adding a lorem ipsum here.</p>
-                                <img className='circle_arrow_img' src={CircleArrow} />
-                            </div>
-                        </div>
-                        <div className="col-sm">
-                            <div className='right_div'>
-                                <div className="row">
-                                    <span>   <img className='row_image_class' src={Group290Img} /></span>
-                                    <span> Keep the history of all your chats, questions and callback requests  </span>
+  return (
+    <>
+      <section className='prov-services_conatiner-1'>
+        <div Class="container mainContainer-1">
+          <div Class="row innerContainer">
+            <div class="col-md-6">
+              <div className='why-formate'>
+                <img src={Are_You} className='Are_You' />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div className='img-container'>
+                <form className='form-getstart'>
+                  <h1 className='Heading'>Get started</h1>
+                  <a className='Headingsub'>Alredy have account? <e style={{ color: "#3DC9A1" }}>sign in</e></a>
+                  <br />
+                  <br />
+                  <div>
+                    <lable className='lableclass'>Name</lable>
+                    <br />
+                    <input className='Inputclass' type='text' placeholder='Enter your name'></input>
+                  </div>
+                  <br />
+                  <div>
+                    <lable className='lableclass'>Email Address</lable>
+                    <br />
+                    <input className='Inputclass' type='email' placeholder='email@domaim.com' />
+                  </div>
+                  <br />
+                  <div>
+                    <lable className='lableclass'>Password </lable>
+                    <br />
+                    <input className='Inputclass' type='password' /><img className="eye" src={eye} />
+                  </div>
+                  <br />
+                  <a className='f_pasword' >forgot Password</a>
+                  <br />
+                  <br />
+                  <br />
+                  <button className='Sign_button'>Sign Up</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-                                </div>
-                                <div className="row">
-                                    <span> <img className='row_image_class' src={CircleMen} /></span>
-                                    <span> Track your interactions with lawyers and receive notifications </span>
-                                </div>
-
-                                <div className="row">
-                                    <span><img className='row_image_class' src={Notification} /></span>
-                                    <span>  Track your interactions with lawyers and receive notifications </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </>
-    )
+    </>
+  )
 }
 export default WhyRegister

@@ -30,6 +30,15 @@ function App() {
       <ClientContainer />
       <LookingForLawyerSection />
       <Footer />
+      {/* <Home/> */}
+      {/* <FindLeagalServices /> */}
+      {/* <LookingForLawyerSection /> */}
+      
+      <ProServicesContainer />
+      <ClientContainer />
+      <Register />  
+      <WhyRegister/>  
+      <Footer />
     </>
   );
 }
