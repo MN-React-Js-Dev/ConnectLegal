@@ -13,6 +13,7 @@ import ClientReview3 from './Client-Section/ClientReview3';
 import ClientReview4 from './Client-Section/ClientReview4';
 import ClientReview5 from './Client-Section/ClientReview5';
 import quickly from  '../assets/images/quickly.png'
+import cliemtReview from "../assets/images/clientsmessage.png"
 
  
 const ClientContainer = () => {
@@ -31,7 +32,7 @@ const ClientContainer = () => {
                    </div>
                    <div className='client-desc'>
                         <div>
-                        <img src={quote}  alt="sdsd" height="20%" width="20%" />
+                            <img src={quote}  alt="sdsd" height="20%" width="20%" />
                         </div>
                    </div>
                 </div>
@@ -42,7 +43,7 @@ const ClientContainer = () => {
                 </div>
                 <div>
                     <div className='seeMore'>
-                        See More 
+                        See More >
                     </div>
                 </div>
                 {/* <div className='client-says-header'> 
@@ -73,8 +74,23 @@ const ClientContainer = () => {
         </div>
 
         <div className='services-right-container col-sm-8'>
-            <div className='client-review'>
+            <div className='client-review-section'>
+               <div className='client-review-msg'>
+                        <img src={cliemtReview}   />
+               </div>
 
+                {/* <div className='firstColumn'>
+                    <div className='client-container'>
+                        <img src={AmgImage}  alt="sdsd"  />
+                    </div>
+                    
+                </div>
+                <div className='secondColumn'>
+                    <div className='client-container'>
+                        <img src={img5}  alt="sdsd" />
+                    </div>
+                    
+                </div> */}
             </div>
             
             {/* <div className='first-column'>

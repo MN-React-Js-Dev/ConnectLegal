@@ -5,10 +5,9 @@
     margin-bottom: 5%;
     padding: 2%;
     display: flex;   
-    border: 1px black solid;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:425px) {
     .services-container {
         flex-direction: column;
     }
@@ -23,77 +22,48 @@
     display: flex;
     flex-direction: column;
     width: 80%;
-    border: 1px black solid;
 }
 
 .client-desc {
     width: 20%;
-    border: 1px black solid;
 }
 
+@media screen and (max-width:768px) { 
+    .client-desc {
+        margin-top: 15%;
+    }    
+}
 
-
-/* @media only screen and(max-width: 480px) {
-    .services-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }   
-} */
-
-/* .service-wrapper {
-    margin: 2%;
-    padding: 2%;
-    
-    height: 100%;
-    width: 100%; 
-    border-radius: 5px;    
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-} */
 
 .services-left-container {
     background-color: white;
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
-   
+    justify-content: center;
 }
 
 .services-right-container {
-   display: flex;
+   /* display: flex; */
    flex-direction: row;
-   /* width: 100%; */
-   border: 1px solid black;
 }
-
 
 .client-says {
     display: flex;
     flex-direction: column;
-    /* align-items: left;
-    justify-content: left; */
     padding: 5%;
 }
 
 .testimonials{
-    /* position: absolute; */
-width: 163px;
-height: 37px;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 22px;
-line-height: 167.5%;
-
-/* identical to box height, or 37px */
-letter-spacing: 0.06em;
-color: #3DC9A1;
-text-align: left;
+    width: 163px;
+    height: 37px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 167.5%;
+    letter-spacing: 0.06em;
+    color: #3DC9A1;
+    text-align: left;
 }
 
 .client-says-header {
@@ -106,20 +76,23 @@ text-align: left;
 }
 
 .what-client-says{
-width: 300px;
-height: 144px;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 48px;
-line-height: 72px;
-
-color: #208C84;
-
+    width: 300px;
+    height: 144px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    color: #208C84;
 }
 
-
+@media screen and (max-width: 768px) {
+    .what-client-says {
+        width: 300px;
+        font-size: 35px;
+        line-height: 55px;
+    }
+}
 
 .quote-div {
     display:flex ;
@@ -128,43 +101,28 @@ color: #208C84;
     margin-right: 30%;
 }
 
+.client-review-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 2%;
+    margin-right: 2%;
+   
+}
 
-.first-column {
+.firstColumn {
     display: flex;
     flex-direction: column;
-    margin-left: 1%;
-    margin-right: 1%;
 }
 
-.client-container {
-    margin-left: 1%;
-    margin-right: 1%;
-    margin-top: 3%;
-    margin-bottom: 3%;
+.secondColumn {
+    display: flex;
+    flex-direction: column;
 }
 
-.back-images {
-    height: 247px;
-    /* width: 468px; */
-    width: 468px;
-    margin-right: 1%;
-   background-image: url('../images/rectangle-104.png');
-
-}
-
-.back-images-dark {
-    height: 247px;
-    /* width: 468px; */
-    width: 468px;
-    margin-right: 1%;
-    background-image: url('../images/rectangle-105.png');
-}
-
-.client-img {
-    position: absolute;
-    height: 58px;
-    width: 59px;
-    border-radius: 0px;
+.client-review-msg {
+    display: flex;
+   justify-content: right;                                                                                                                                                                                                          ;
 }
 
 .seeMore {
