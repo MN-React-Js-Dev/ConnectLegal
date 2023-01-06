@@ -39,20 +39,22 @@ const Home = () => {
             <div id="mainContentRight1" class="col-md-3">
             <h1 className="card1-number">1</h1>
             <img src={frame} alt='img' className="frame" />
-            <h2 > <b>Search Best Lawyer for <br/>Online Consultation</b></h2>
+            <h3 > <b>Search Best Lawyer for <br/>Online Consultation</b></h3>
             <button>See more </button>
             </div>
             <div id="mainContentRight2" class="col-md-3"> 
             <h1 className="card2-number">2</h1>
             <img src={frame1} alt='img' className="frame-1" />
-             <h2><b>View Lawyer profile</b></h2>
+             <h3><b>View Lawyer profile</b></h3>
              <button>See more </button>
             </div>
             <div id="mainContentRight3" class="col-md-3">
             <h1 className="card3-number">3</h1>
             <img src={frame2} alt='img' className="frame-2" />
-            <h2><b>Get Instant Lawyer <br/>Appointment</b></h2>
+            <h3><b>Get Instant Lawyer <br/>Appointment</b></h3>
+            <br/>
             <button>See more </button>
+            <br/>
             </div>
           </div>
         </div>

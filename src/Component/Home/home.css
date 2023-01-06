@@ -137,20 +137,17 @@
 }
 
 #mainContentRight1{
-    width: 470px;
-height: 569px;
-
 background: #C6EEE2;
 }
 #mainContentRight2{
-    width: 470px;
-height: 569px;
+    /* width: 470px;
+height: 569px; */
 margin-top: 180px;
 background: #C2DDE4;
 }
 #mainContentRight3{
-    width: 470px;
-height: 569px;
+    /* width: 470px;
+height: 569px; */
 
 background: #EDEEC6;
 }
@@ -159,14 +156,14 @@ background: #EDEEC6;
     font-weight: 700;
     font-size: 96px;
     color: #093F38;
-        text-align: end;
+    text-align: end;
 }
 .card2-number{
     font-family: 'Poppins';
     font-weight: 700;
     font-size: 96px;
     color: #156075;
-        text-align: end;
+    text-align: end;
 }
 .card3-number{
     font-family: 'Poppins';
@@ -177,20 +174,20 @@ background: #EDEEC6;
     
 }
 .frame{
-    height: 150px;
-    width: 150px;
-    margin: 28px;
+    height: 100px;
+    width: 100px;
+    margin: 22px;
 
 }
 .frame-1{
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     margin: 28px;
 
 }
 .frame-2{
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     margin: 28px;
 
 }
