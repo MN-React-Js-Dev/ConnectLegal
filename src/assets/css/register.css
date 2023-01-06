@@ -1,13 +1,13 @@
-.mainContainer {
+.mainContainer-data {
     margin-top: 5%;
     margin-bottom: 5%;
 }
 
-.innerContainer {
+.innerContainer-data {
     display: flex;
     justify-content: center;
 }
-.left-Container {
+.left-Container-data {
     height: 330px;
     background: #C2DDE4;
     border-radius: 5px;
@@ -15,7 +15,7 @@
     margin: 10px
 }
 
-.right-Container {
+.right-Container-data {
     height: 330px;
     background: #ece9e9;
     border-radius: 5px;

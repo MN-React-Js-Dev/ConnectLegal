@@ -17,7 +17,7 @@ const WhyRegister = () => {
         <div Class="container mainContainer-1">
           <div Class="row innerContainer">
             <div class="col-md-6">
-              <div className='why-formate'>
+              <div className='col-cst-est'>
                 <img src={Are_You} className='Are_You' />
               </div>
             </div>

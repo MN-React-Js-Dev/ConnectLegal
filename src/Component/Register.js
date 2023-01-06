@@ -9,9 +9,9 @@ import img4 from '../assets/images/Vector -img.png'
 const ProServicesContainer = () => {
   return (
     <section className='prov-services_conatiner'>
-      <div Class="container mainContainer">
-        <div Class="row innerContainer">
-          <div Class="col-sm-12 left-Container">
+      <div Class="container mainContainer-data">
+        <div Class="row innerContainer-data">
+          <div Class="col-md-5 left-Container-data">
             <div className='why-formate'>
               <h1 className='why-heading'>Why Register?</h1>
               <p className='why-subheading'>Keep the history of all your chats, questions and callback
@@ -19,7 +19,7 @@ const ProServicesContainer = () => {
               <img className='register-logo-data3' src={img4} />
             </div>
           </div>
-          <div Class="col-sm-12 right-Container">
+          <div Class="col-md-5 right-Container-data">
             <div className='img-container'>
               <img className='register-logo-data' src={img1} />
               <span className='why-subheading'>Keep the history of all your chats, questions and callback requests</span>

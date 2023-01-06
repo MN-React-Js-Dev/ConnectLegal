@@ -1,14 +1,15 @@
 .container main-are-you {
-    margin-top: 5%;
-    margin-bottom: 5%;
+    /* margin-top: 5%;
+    margin-bottom: 5%; */
     background: #5d9cac;
-/* padding: 60px; */
+    /* padding: 60px; */
 }
 
 .innerContainer {
-    display: flex; 
-    justify-content: center; 
+    /* display: flex; 
+    justify-content: center;  */
 }
+
 .left-Container-data {
     /* border: 1px black dashed; */
     /* width: 650px;
@@ -31,96 +32,112 @@
     margin: 10px
 }
 
-.left-Container-1{
-    width: 754px;
-height: 718px;
-background: #E5EAED;
+.left-Container-1 {
+    /* width: 754px;
+height: 718px; */
+    background: #E5EAED;
 }
 
-.right-Container-1{
-    width: 754px;
-height: 718px;
-background: #E5EAED;
+.right-Container-1 {
+    /* width: 754px;
+height: 718px; */
+    background: #E5EAED;
 }
 
-.Are_You{
+/* .Are_You {
     position: absolute;
     width: 800px;
-height: 600.86px;
+    height: 600.86px;
 
-background: #C6EEE2;
-border-radius: 10px;
-}
+    background: #C6EEE2;
+    border-radius: 10px;
+} */
 
-.Heading{
+.Heading {
     width: 231px;
-height: 60px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 40px;
-line-height: 60px;
-text-align: center;
-color: #191919;
-margin-left: 55px
+    height: 60px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    color: #191919;
+    margin-left: 55px
 }
 
-.form-getstart{
-    padding: 71px;
-    margin-left: 120px;
+ 
+.Headingsub {
+
+    width: 219px;
+    height: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    color: #191919;
+    margin-left: 66px
 }
 
-.Headingsub{
-   
-width: 219px;
-height: 30px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 30px;
-color: #191919;
-margin-left: 66px
-
-}
-.lableclass{
+.lableclass {
     width: 49px;
-height: 30px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 30px;
-color: #191919;
+    height: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #191919;
 
 }
-.Inputclass{
+
+.Inputclass {
     width: 444px;
-height: 35px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 35px;
-color: #191919;
-background: transparent;
+    height: 35px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #191919;
+    background: transparent;
     border: none;
     border-bottom: 1px solid #000000;
 
 }
-.eye{
+
+.eye {
     width: 23px;
     margin-left: -44px;
     margin-bottom: 18px;
 
 }
-.f_pasword{
+
+.f_pasword {
     margin-left: 326px;
-    color:#3DC9A1
+    color: #3DC9A1
 }
-.Sign_button{
-    width: 335px;
-height: 68px;
-margin-left: 28px;
-background: #208C84;
+
+ 
+ 
+
+.prov-services_conatiner-1 {
+    height: 930px;
+}
+
+form.form-getstart {
+    padding: 4px -6px 0px;
+}
+
+.row.innerContainer {
+    padding: 72px 6px 0px;
+}
+
+.Sign_button {
+    color: white;
+    width: 210px;
+    height: 68px;
+    margin-left: 28px;
+    background: #208C84;
 }
