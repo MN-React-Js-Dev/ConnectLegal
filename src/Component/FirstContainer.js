@@ -39,10 +39,10 @@ function FirstContainer() {
               <div className="first-card-data">
                 <div class="container">
                   <div class="row">
-                    <div class="col-sm-2">
+                    <div class="col-sm-2 extra_class_for_css">
                       <img src={img1} className="img-data" />
                     </div>
-                    <div class="col-sm m-2">
+                    <div class="col-sm m-2 extra_class_for_css">
                       <span>
                         <b>Find a Lawyer</b>
                       </span>
