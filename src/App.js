@@ -23,15 +23,15 @@ function App() {
       <Header />
       <FirstContainer />
       <SecondContainer />
-      {/*
-      <Thirdcontainer />
+     
+      {/* <Thirdcontainer /> */}
       <Home/>
-      <FindLeagalServices />
+      {/* <FindLeagalServices />
       <ProServicesContainer />
       <ClientContainer />
       <LookingForLawyerSection />
-        {/* <Register />     */}
-      <Footer />
+       <Register />    */}
+      {/* <Footer /> */}
     </>
   );
 }
