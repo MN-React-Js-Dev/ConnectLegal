@@ -1,0 +1,70 @@
+.mainContainer {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.innerContainer {
+    display: flex;
+    justify-content: center;
+}
+.left-Container {
+    height: 330px;
+    background: #C2DDE4;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    margin: 10px
+}
+
+.right-Container {
+    height: 330px;
+    background: #ece9e9;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    margin: 10px
+}
+
+.register-logo{
+    width: 61px;
+height: 61px;
+
+}
+.register-logo-data{
+    width: 61px;
+height: 61px;
+}
+.register-logo-data2{
+    width: 61px;
+    height: 61px;
+    margin-top: 20px    
+}
+.register-logo-data3{
+    width: 61px;
+    height: 61px;
+    margin-top: 20px    
+}
+.why-formate{
+    margin-left: 76px;
+    margin-top: 50px;
+}
+.why-heading{
+    width: 509px;
+height: 60px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 60px;
+color: #156075;
+}
+
+.why-subheading{
+    width: 525px;
+height: 54px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+color: #191919;
+}

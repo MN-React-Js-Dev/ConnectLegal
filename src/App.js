@@ -21,19 +21,18 @@ function App() {
   return (
     <>
       <Header />
-      <FirstContainer />
+      {/* <FirstContainer />
       <SecondContainer />
       <Thirdcontainer />
-      
-     
-      {/* <Thirdcontainer /> */}
+
       <Home/>
       <FindLeagalServices />
       <LookingForLawyerSection />
-      {/*
+      
       <ProServicesContainer />
-      <ClientContainer />
-       <Register />    */}
+      <ClientContainer /> */}
+      <Register />  
+      <WhyRegister/>  
       {/* <Footer /> */}
     </>
   );
