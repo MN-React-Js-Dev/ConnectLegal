@@ -7,17 +7,12 @@ import UserMen from '../assets/images/usermen.png'
 import ArrowRight from '../assets/images/right_arrow.png'
 
 
-
-
-
-
-
 const FindLeagalServices = () => {
     return (
         <>
             <section className='legal_consultancy'>
                 <div class="container findleagal_con">
-                    <div class="row">
+                    <div class="row align-items-center justify-content-between">
                         <div class="col-sm-4">
                             <img className='connect-mobile' src={ConectMobileImg} />
                         </div>

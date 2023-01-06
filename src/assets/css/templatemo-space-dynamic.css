@@ -1748,7 +1748,7 @@ responsive
    top: -370px;
    border-radius: nullpx;
    font: bold;
-   font-size: 24px;
+   /* font-size: 24px; */
    font-family: "Poppins";
  }
 
@@ -1808,7 +1808,7 @@ responsive
      padding-top: 0px;
      top: -494px;
      margin-top: 0px;
-     margin-left: 38px;
+     margin-left: 16px;
    }
 
    .rightdiv_heading {
@@ -1901,11 +1901,7 @@ responsive
    background: #E8F8F2;
  }
 
- .connect-mobile {
-   margin-top: 110px;
-   width: 409px;
-   float: right;
- }
+
 
  .custm-span-connact {
    /* font-weight: 500;
@@ -1962,13 +1958,6 @@ responsive
    }
 
 
-
-   /* .col-sm-7.right_cstm_legal_div {
-     width: 93%;
-     margin-top: 60px;
-     margin-left: 13px;
-     text-align: left;
-   } */
 
    .new_mobile_class span {
      font-size: 30px;
@@ -2074,12 +2063,29 @@ responsive
  }
 
  @media (max-width: 575.98px) {
-  .col-sm-7.right_cstm_legal_div {
-    /* width: 93%; */
-    margin-top: 60px;
-    margin-left: 13px;
-    text-align: left;
+
+  .rightdiv_heading {
+    height: 54px;
+    width: 565px;
+    left: 200px;
+    top: -443px;
+    border-radius: nullpx;
+    font-size: 24px;
+    font-family: "Poppins";
   }
+   .connect-mobile {
+     /* margin-top: 271px; */
+     /* width: 304px !important; */
+     float: right;
+   }
+
+   .col-sm-7.right_cstm_legal_div {
+     /* width: 93%; */
+     margin-top: 60px;
+     margin-left: 13px;
+     text-align: left;
+   }
+
    section.legal_consultancy {
      height: 1763px;
    }
@@ -2143,6 +2149,18 @@ responsive
  }
 
  @media (max-width: 768px) {
+  .div_main{
+    padding: 10px;
+  }
+  .rightdiv_heading {
+    height: 54px;
+    width: 565px;
+    left: 200px;
+    top: -443px;
+    border-radius: nullpx;
+    font-size: 24px;
+    font-family: "Poppins";
+  }
    .reorder {
      display: flex;
      flex-direction: column;
@@ -2154,7 +2172,24 @@ responsive
 
    .connect-mobile {
      margin-top: 271px;
-     width: 284px;
+     width: 600px;
+     float: right;
+   }
+ }
+
+ @media (max-width: 1326px) {
+
+   .connect-mobile {
+     margin-top: 271px;
+     width: 100% !important;
+     float: right;
+   }
+ }
+
+ @media (max-width: 1920px) {
+   .connect-mobile {
+     margin-top: 271px;
+     width: 61%;
      float: right;
    }
  }
