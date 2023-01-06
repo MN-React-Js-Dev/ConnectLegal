@@ -56,3 +56,6 @@ img.logo_hero_section {
     width: 208px;
     text-align: left;
  }
+ .heading-h2{
+    text-align: inherit;
+ }

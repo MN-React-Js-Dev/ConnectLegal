@@ -22,13 +22,13 @@ const ProServicesContainer = () => {
           <div Class="col-md-5 right-Container-data">
             <div className='img-container'>
               <img className='register-logo-data' src={img1} />
-              <span className='why-subheading'>Keep the history of all your chats, questions and callback requests</span>
+              <span className='why-subheading'>Keep the history of all your chats, questions</span>
               <br />
               <img className='register-logo-data2' src={img2} />
-              <span className='why-subheading'>Track your interactions with lawyers and receive notifications</span>
+              <span className='why-subheading'>Track your interactions with lawyers.</span>
               <br />
               <img className='register-logo-data3' src={img3} />
-              <span className='why-subheading'>Ask lawyers follow-up questions if something is not clear from their answers</span>
+              <span className='why-subheading'>Ask lawyers follow-up questions.</span>
             </div>
           </div>
         </div>
