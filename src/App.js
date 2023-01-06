@@ -23,8 +23,8 @@ function App() {
       <Header />
       <FirstContainer />
       <SecondContainer />
-     
-      {/* <Thirdcontainer /> */}
+      <Thirdcontainer />
+      {/*
       <Home/>
       {/* <FindLeagalServices />
       <ProServicesContainer />

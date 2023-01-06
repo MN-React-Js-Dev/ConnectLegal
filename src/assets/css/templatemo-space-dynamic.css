@@ -74,6 +74,14 @@ reset
    overflow-y: auto;
  }
 
+ p,
+ span,
+ h1,
+ h2 {
+   font-family: 'Poppins';
+   font-style: normal;
+ }
+
  /* clear fix */
  .grid:after {
    content: '';
@@ -1994,6 +2002,16 @@ responsive
 
  }
 
+ .mmy-question {
+   padding: 40px 216px 58px;
+   background-color: #e8f8f2;
+
+ }
+
+ .cstm-container-formy-question {
+   background-color: #E8F8F2;
+ }
+
  .discount-heading .main-button {
    transform-origin: left top;
  }
@@ -2009,7 +2027,68 @@ responsive
    /* float: right; */
  }
 
+ .green-span-featurs-question {
+   width: 111px;
+   height: 37px;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 22px;
+   line-height: 167.5%;
+   letter-spacing: 0.06em;
+   color: #208C84;
+ }
+
+ .user-data {
+   /* width: 543px; */
+   /* height: 78px; */
+
+   background: #E8F8F2;
+   border-radius: 20px !important;
+ }
+
+ #kandda {
+   padding: 50px;
+ }
+
+ .new-question-card {
+   width: 40rem;
+   padding: 18px;
+   background-color: pink;
+   border-radius: 25px !important;
+ }
+
+ .first-container-para-m1 {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 21px;
+   color: #191919;
+ }
+
+ .first-container-para-m2 {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 167.5%;
+   color: #191919;
+ }
+
+
+ .first-container-heading-m {
+   color: #208C84;
+   font-size: 40px;
+   font-family: "Poppins";
+   font-style: normal;
+ }
+
  @media (max-width: 575.98px) {
+   .first-container-test {
+     font-size: 24px !important;
+   }
+
    .hero_section_first {
      text-align: left;
      height: 1380px !important;
@@ -2028,18 +2107,37 @@ responsive
      padding: 84px 16px 40px;
    }
 
+   .mmy-question {
+     padding: 84px 16px 40px;
+   }
+
+   #kandda {
+     margin: 24px 10px 10px;
+     padding: 8px !important;
+   }
+
  }
 
  @media (max-width: 1399.98px) {
    .discounts-section {
      padding: 70px 95px 40px;
-     ;
+
+   }
+
+   .mmy-question {
+     padding: 70px 95px 40px;
+
    }
  }
 
  @media (max-width: 1199.98px) {
    .discounts-section {
      padding: 64px 16px 40px;
+   }
+
+   .mmy-question {
+     padding: 64px 16px 40px;
+
    }
  }
 
