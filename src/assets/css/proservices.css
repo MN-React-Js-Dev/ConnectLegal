@@ -2,12 +2,9 @@
     margin-top: 20%;
     margin-bottom: 5%;
 
-<<<<<<< HEAD
     /* margin-left: 5%;
     margin-right: 5%; */
     /* padding: 5px; */
-=======
->>>>>>> 763e303adb110bfcfef167daaba8318d54314b5e
 
 }
 
@@ -24,7 +21,7 @@
     background: #C2DDE4;
     height: 520px;
     width: 650px;
-    background-image: url('../images/group-570.png');
+    background-image: url('../images/Group-570.png');
     background-size: contain;
     background-repeat: no-repeat;
 }

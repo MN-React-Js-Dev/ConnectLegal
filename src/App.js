@@ -24,26 +24,11 @@ function App() {
       <FirstContainer />
       <SecondContainer />
       <Thirdcontainer />
-      
-     
-      {/* <Thirdcontainer /> */}
-      <Home/>
+      <Home />
       <FindLeagalServices />
+      <ProServicesContainer />
+      <ClientContainer />
       <LookingForLawyerSection />
-      {/*
-      <ProServicesContainer />
-      <ClientContainer />
-       <Register />    */}
-      {/* <Footer /> */}
-      <Thirdcontainer />  
-      <Home/>
-      <br />
-      <br />
-      <br />
-      <FindLeagalServices />
-      <ProServicesContainer />
-      <ClientContainer />
-      <LookingForLawyerSection />  
       <Footer />
     </>
   );
