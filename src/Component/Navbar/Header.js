@@ -8,7 +8,7 @@ const Header = () => {
                     <div class="row">
                         <div class="col-12">
                             <nav class="main-nav">
-                                <a href="index.html" class="logo">
+                                <a href="#" class="logo">
                                     <img className='menu-logo' src={Vector} />
                                     <span > <h4 className='text-white'>Connect Legal</h4>  </span>
                                 </a>

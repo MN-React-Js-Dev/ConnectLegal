@@ -1,7 +1,7 @@
 import React from 'react';
 import '../assets/css/services.css'
-import quote  from '../assets/images/Vector-quote.png'
-import AmgImage  from '../assets/images/rectangleImg.png'
+import quote from '../assets/images/Vector-quote.png'
+import AmgImage from '../assets/images/rectangleImg.png'
 import img2 from '../assets/images/rectangle-104.png'
 import img3 from '../assets/images/rectangle-105.png'
 import img4 from '../assets/images/rectangle-111.png'
@@ -15,7 +15,7 @@ import ClientReview5 from './Client-Section/ClientReview5';
 import quickly from  '../assets/images/quickly.png'
 import cliemtReview from "../assets/images/clientsmessage.png"
 
- 
+
 const ClientContainer = () => {
   return (
     <div className='services-container'>
@@ -46,29 +46,6 @@ const ClientContainer = () => {
                         See More >
                     </div>
                 </div>
-                {/* <div className='client-says-header'> 
-                    <div className='heading-client-says'>
-                        <div className='testimonials'>TESTIMONIALS</div>
-                        <div className='what-client-says'>what <br/> client says</div>
-                    </div>
-                    <div className='quote-div'>
-                        <div>
-                        <img src={quote}  alt="sdsd" height="20%" width="20%" />
-                        </div>
-                    </div>
-                    
-                </div> */}
-                    
-                    {/* <div className='body-text1'>
-                        "We quickly had to get legal counsel, 
-                        and luckily for us, we found the Connect 
-                        Legal platform. The rapport and guidance 
-                        was outstanding at all times, prompt, 
-                        timely, and open for calls and quick updates".
-                    </div>
-                    <div className='seeMore'>
-                            See More 
-                    </div> */}
             </div>
             
         </div>
@@ -78,77 +55,7 @@ const ClientContainer = () => {
                <div className='client-review-msg'>
                         <img src={cliemtReview}   />
                </div>
-
-                {/* <div className='firstColumn'>
-                    <div className='client-container'>
-                        <img src={AmgImage}  alt="sdsd"  />
-                    </div>
-                    
-                </div>
-                <div className='secondColumn'>
-                    <div className='client-container'>
-                        <img src={img5}  alt="sdsd" />
-                    </div>
-                    
-                </div> */}
             </div>
-            
-            {/* <div className='first-column'>
-                <div>
-                    <div className='client-container'>
-                        <img src={AmgImage}  alt="sdsd"  />
-                    </div>
-                    <div className='client-container'>
-                        <div className='back-images'>
-                            <div>
-                                <ClientReview1 />
-                            </div>
-                        </div>
-                    </div>
-                    <div className='client-container'>
-                        <div className='back-images-dark'>
-                            <div>
-                                <ClientReview2 />
-                            </div>
-                        </div>
-                    </div>
-                    <div className='client-container'>
-                        <div className='back-images'>
-                            <div>
-                                <ClientReview3 />
-                            </div>
-                        </div>
-                    </div>
-                    <div className='client-container'>
-                        <img src={img4}  alt="sdsd"  />
-                    </div>
-                </div>
-            </div>
-            
-            <div className='first-column'>
-                <div>
-                    <div className='client-container'>
-                        <img src={img5}  alt="sdsd" />
-                    </div>
-                    <div className='client-container'>
-                        <div className='back-images'>
-                            <div>
-                                <ClientReview4 />
-                            </div>
-                        </div>
-                    </div>
-                    <div className='client-container'>
-                        <div className='back-images'>
-                            <div>
-                                <ClientReview5 />
-                            </div>
-                        </div>
-                    </div>
-                    <div className='client-container'>
-                        <img src={img6}  alt="sdsd" />
-                    </div>
-                </div>
-            </div> */}
         </div>
     </div>
   )
@@ -173,77 +80,76 @@ export default ClientContainer
                         <img src={quote}  alt="sdsd" height="20%" width="20%" />
                         </div>
                     </div>
-                    
-                </div>
-                    
+
                     <div className='body-text1'>
-                        "We quickly had to get legal counsel, 
-                        and luckily for us, we found the Connect 
-                        Legal platform. The rapport and guidance 
-                        was outstanding at all times, prompt, 
+                        "We quickly had to get legal counsel,
+                        and luckily for us, we found the Connect
+                        Legal platform. The rapport and guidance
+                        was outstanding at all times, prompt,
                         timely, and open for calls and quick updates".
                     </div>
                     <div className='seeMore'>
                             See More >
                     </div>
-            </div>
-            
-        </div>
+                </div>
 
-        <div className='services-right-container'>
-            <div className='first-column'>
-                <div>
-                    <div className='client-container'>
-                        <img src={AmgImage}  alt="sdsd"  />
-                    </div>
-                    <div className='client-container'>
-                        <div className='back-images'>
-                            <div>
-                                <ClientReview1 />
+            </div>
+
+            <div className='services-right-container'>
+                <div className='first-column'>
+                    <div>
+                        <div className='client-container'>
+                            <img src={AmgImage} alt="sdsd" />
+                        </div>
+                        <div className='client-container'>
+                            <div className='back-images'>
+                                <div>
+                                    <ClientReview1 />
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className='client-container'>
-                        <div className='back-images-dark'>
-                            <div>
-                                <ClientReview2 />
+                        <div className='client-container'>
+                            <div className='back-images-dark'>
+                                <div>
+                                    <ClientReview2 />
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className='client-container'>
-                        <div className='back-images'>
-                            <div>
-                                <ClientReview3 />
+                        <div className='client-container'>
+                            <div className='back-images'>
+                                <div>
+                                    <ClientReview3 />
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className='client-container'>
-                        <img src={img4}  alt="sdsd"  />
+                        <div className='client-container'>
+                            <img src={img4} alt="sdsd" />
+                        </div>
                     </div>
                 </div>
-            </div>
-            
-            <div className='first-column'>
-                <div>
-                    <div className='client-container'>
-                        <img src={img5}  alt="sdsd" />
-                    </div>
-                    <div className='client-container'>
-                        <div className='back-images'>
-                            <div>
-                                <ClientReview4 />
+
+                <div className='first-column'>
+                    <div>
+                        <div className='client-container'>
+                            <img src={img5} alt="sdsd" />
+                        </div>
+                        <div className='client-container'>
+                            <div className='back-images'>
+                                <div>
+                                    <ClientReview4 />
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className='client-container'>
-                        <div className='back-images'>
-                            <div>
-                                <ClientReview5 />
+                        <div className='client-container'>
+                            <div className='back-images'>
+                                <div>
+                                    <ClientReview5 />
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className='client-container'>
-                        <img src={img6}  alt="sdsd" />
+                        <div className='client-container'>
+                            <img src={img6} alt="sdsd" />
+                        </div>
                     </div>
                 </div>
             </div>

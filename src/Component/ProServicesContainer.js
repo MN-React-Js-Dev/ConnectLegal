@@ -7,7 +7,8 @@ import rightsignBrown from '../assets/images/vector-right-brown.png'
 
 const ProServicesContainer = () => {
   return (
-  <div Class="container mainContainer">
+    <section className='prov-services_conatiner'>
+      <div Class="container mainContainer">
         <div Class="row innerContainer">
             <div Class="col-sm-12 left-Container">
               <div className='pro-services'>PRO Services</div>
@@ -54,9 +55,7 @@ const ProServicesContainer = () => {
                     <img src={arrowimg} alt="appointment" />
                   </div>
               </div>
-              
             </div>
-           
 
             <div Class="col-sm-12 right-Container">
             <div className='legal-header'>Legal Translation <br/> Services</div>
@@ -103,8 +102,9 @@ const ProServicesContainer = () => {
                   </div>
               </div>
             </div>
+          </div>
         </div>
-    </div>
+    </section>
   )
 }
 
