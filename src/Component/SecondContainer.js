@@ -36,8 +36,7 @@ function Secondcontainer() {
         </Container>
       </section> */}
 
-      <section class="discounts-section">
-        {/* <div class="container">
+         {/* <div class="container">
           <div class="row align-items-center justify-content-between" id="side_panel">
             <div class="col-md-6 col-lg-5">
               <div class="discount-heading">
@@ -57,11 +56,12 @@ function Secondcontainer() {
               <img class="discounts-img" src={img3} />
             </div>
           </div>
-        </div>
-        <div class="container"> */}
+        </div> */}
 
+      <section class="discounts-section">
+      <div class="container"> 
         <div class="row align-items-center justify-content-between">
-          <div class="row reorder">
+          <div class="row reorder align-items-center justify-content-between">
             <div id="side_panel" class="col-md-6 col-lg-5">
               <div class="discount-heading">
                 <h2 class="h2 heading-h2">
@@ -81,7 +81,7 @@ function Secondcontainer() {
             </div>
           </div>
         </div>
-        {/* </div> */}
+         </div> 
       </section>
     </>
   );

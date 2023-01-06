@@ -1990,24 +1990,24 @@ responsive
 
  .discounts-section {
    padding: 40px 216px 58px;
-   background-color:#F4FEFA;
-   
+   background-color: #F4FEFA;
+
  }
 
  .discount-heading .main-button {
    transform-origin: left top;
  }
 
- .green-heading-two{
-  color: #208C84;
+ .green-heading-two {
+   color: #208C84;
  }
 
  .discounts-img {
-  width: 80%;
-  /* height: 70%; */
-  object-fit: cover;
-  /* float: right; */
-}
+   width: 80%;
+   /* height: 70%; */
+   object-fit: cover;
+   /* float: right; */
+ }
 
  @media (max-width: 575.98px) {
    .hero_section_first {
@@ -2023,15 +2023,17 @@ responsive
    .we_coonect_section {
      height: 2500px !important;
    }
+
    .discounts-section {
-    padding: 84px 16px 40px;
-  }
+     padding: 84px 16px 40px;
+   }
 
  }
 
  @media (max-width: 1399.98px) {
    .discounts-section {
-     padding: 84px 16px 40px;
+     padding: 70px 95px 40px;
+     ;
    }
  }
 
@@ -2042,11 +2044,12 @@ responsive
  }
 
  @media (max-width: 768px) {
-  .reorder {
-    display: flex;
-    flex-direction: column;
-  }
-  #side_panel {
-    order: 2;
-  }
-}
+   .reorder {
+     display: flex;
+     flex-direction: column;
+   }
+
+   #side_panel {
+     order: 2;
+   }
+ }
