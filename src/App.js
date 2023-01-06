@@ -23,15 +23,13 @@ function App() {
       <Header />
       <FirstContainer />
       <SecondContainer />
-<<<<<<< HEAD
       <Thirdcontainer />
       {/*
-=======
      
       {/* <Thirdcontainer /> */}
->>>>>>> fbfac084822078b4084c29688ca392764383cb55
       <Home/>
-      {/* <FindLeagalServices />
+      <FindLeagalServices />
+      {/*
       <ProServicesContainer />
       <ClientContainer />
       <LookingForLawyerSection />

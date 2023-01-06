@@ -1944,10 +1944,9 @@ responsive
  }
 
  .legal_consultancy {
-   height: 736px;
+   height: 900px;
    width: auto;
    background: #e8f8f2;
-   margin-top: 80px;
  }
 
  .read_more {
@@ -1962,29 +1961,19 @@ responsive
      margin-left: -41px;
    }
 
-   .connect-mobile {
-     width: 317px;
-     text-align: center;
-     margin-top: 36px;
-     float: none;
-   }
 
-   .col-sm-7.right_cstm_legal_div {
+
+   /* .col-sm-7.right_cstm_legal_div {
      width: 93%;
      margin-top: 60px;
      margin-left: 13px;
      text-align: left;
-   }
+   } */
 
    .new_mobile_class span {
      font-size: 30px;
    }
 
-   .legal_consultancy {
-     height: 1400px;
-     width: auto;
-     background: #e8f8f2;
-   }
  }
 
  .three_steps {
@@ -2085,6 +2074,16 @@ responsive
  }
 
  @media (max-width: 575.98px) {
+  .col-sm-7.right_cstm_legal_div {
+    /* width: 93%; */
+    margin-top: 60px;
+    margin-left: 13px;
+    text-align: left;
+  }
+   section.legal_consultancy {
+     height: 1763px;
+   }
+
    .first-container-test {
      font-size: 24px !important;
    }
@@ -2139,6 +2138,8 @@ responsive
      padding: 64px 16px 40px;
 
    }
+
+
  }
 
  @media (max-width: 768px) {
@@ -2149,5 +2150,11 @@ responsive
 
    #side_panel {
      order: 2;
+   }
+
+   .connect-mobile {
+     margin-top: 271px;
+     width: 284px;
+     float: right;
    }
  }
