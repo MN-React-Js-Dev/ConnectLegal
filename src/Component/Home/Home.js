@@ -20,12 +20,46 @@ import Rectangle2 from '../../assets/images/Rectangle 129.png';
 import seeMore from '../../assets/images/See more _.png';
 import seeMore1 from '../../assets/images/See more _ (1).png';
 import seeMore2 from '../../assets/images/See more _ (2).png';
-
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 const Home = () => {
     return (
         <>
-            <section className="three_steps">
+         <section class="discounts-section">
+      <div class="container"> 
+        <div class="row align-items-center justify-content-between">
+          <div class="row align-items-center justify-content-between">
+            <div>
+                  <b><h2>3 STEPS FOR </h2>
+                   <h2> Appointment Process for <br/>
+                    Legal Services</h2></b>
+            </div>
+            <div id="mainContentRight1" class="col-md-3">
+            <h1 className="card1-number">1</h1>
+            <img src={frame} alt='img' className="frame" />
+            <h2 > <b>Search Best Lawyer for <br/>Online Consultation</b></h2>
+            <button>See more </button>
+            </div>
+            <div id="mainContentRight2" class="col-md-3"> 
+            <h1 className="card2-number">2</h1>
+            <img src={frame1} alt='img' className="frame-1" />
+             <h2><b>View Lawyer profile</b></h2>
+             <button>See more </button>
+            </div>
+            <div id="mainContentRight3" class="col-md-3">
+            <h1 className="card3-number">3</h1>
+            <img src={frame2} alt='img' className="frame-2" />
+            <h2><b>Get Instant Lawyer <br/>Appointment</b></h2>
+            <button>See more </button>
+            </div>
+          </div>
+        </div>
+         </div> 
+      </section>
+    
+            {/* <section className="three_steps">
                 <div className="cstm3_div">
                 <div className="main-content">
                     <img src={process} alt="img" />
@@ -100,7 +134,7 @@ const Home = () => {
                     </div>
                 </div>
                 </div>
-            </section>
+            </section>  */}
         </>
     )
 }

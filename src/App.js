@@ -14,6 +14,7 @@ import Thirdcontainer from './Component/Thirdcontainer';
 import ClientContainer from './Component/ClientContainer';
 import ProServicesContainer from './Component/ProServicesContainer';
 import Home from './Component/Home/Home';
+import Register from './Component/Register';
 
 
 function App() {
@@ -22,19 +23,20 @@ function App() {
       <Header />
       <FirstContainer />
       <SecondContainer />
+<<<<<<< HEAD
       <Thirdcontainer />
       {/*
+=======
+     
+      {/* <Thirdcontainer /> */}
+>>>>>>> fbfac084822078b4084c29688ca392764383cb55
       <Home/>
-      <br />
-      <br />
-      <br />
-      <FindLeagalServices />
-      
+      {/* <FindLeagalServices />
       <ProServicesContainer />
       <ClientContainer />
       <LookingForLawyerSection />
-             */}
-      <Footer />
+       <Register />    */}
+      {/* <Footer /> */}
     </>
   );
 }
