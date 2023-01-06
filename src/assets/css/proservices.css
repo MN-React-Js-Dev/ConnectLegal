@@ -14,15 +14,34 @@
 }   
 
 .left-Container {
-    /* border: 1px black dashed; */
-    width: 650px;
-    height: 500px;
     background: #C2DDE4;
-    border-radius: 5px;
+    height: 520px;
+    width: 650px;
     background-image: url('../images/group-570.png');
-    background-size: 720px 480px;
+    background-size: contain;
     background-repeat: no-repeat;
-   
+}
+
+@media screen and (max-width:425px) { 
+    .left-Container {
+        height: 380px;
+    }
+}
+    
+
+.right-Container {
+    background: #EDEEC6;
+    width: 650px;
+    height: 520px;
+    background-image: url('../images/group-571.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width:425px) { 
+    .right-Container {
+        height: 380px;
+    }
 }
 
 .pro-services {
@@ -39,36 +58,88 @@
     margin-left: 5%;
 }
 
+
 .appointment{
     /* position: absolute; */
-width: 607px;
-height: 78px;
-margin-left: 5%;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 167.5%;
-/* or 33px */
-color: #191919;
+    width: 607px;
+    height: 78px;
+    margin-left: 5%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 167.5%;
+    /* or 33px */
+    color: #191919;
+}
+
+@media screen and (max-width:425px) {
+    .appointment {
+        width: 250px;
+        font-size: 12px;
+    }
 }
 
 .appointment-grp {
-    margin-left: 10%;
-    width: 109%;
-    margin-bottom: 10%;
+    margin-left: 3%;
+    width: 300%;
+    height: 200%;
+    font-size: 100%;
+    font-family: 'Poppins';
+    font-style: normal;
 }
+
+@media screen and (max-width: 325px ){
+    .appointment-grp {
+        width: 120%;
+        height: 150%;
+        font-size: 20%;
+    }
+}
+
+@media screen and (max-width: 575.98px ){
+    .appointment-grp {
+        width: 120%;
+        height: 150%;
+        font-size: 65%;
+    }
+}
+
+.right-sign {
+    width: 15%;
+    padding: 0.5%;
+    height: fit-content;
+    display: flex;
+    align-items: flex-start;
+}
+
+
+@media screen and (max-width: 425.98px ) {
+    .right-sign {
+        width: 8%;
+        height: fit-content;
+    }  
+}
+
+.appointment-text-final {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.appointment-sign-text {
+    display: flex;
+    flex-direction: row;
+    /* padding: 1%; */
+    width: 200%;
+}
+
+
 .appointment-text {
     height: 40%;
     width: 40%;
     margin-left: 5%;
-}
-
-.right-sign {
-    width: 16px;
-    height: 10px;
-    line-height: 148%;
-    /* margin-top: 20%; */
 }
 
 .arrow-img {
@@ -77,22 +148,11 @@ color: #191919;
     width: 50%;
 }
 
-.right-Container {
-    /* border: 1px black dashed; */
-    width: 650px;
-    height: 500px;
-    background: #EDEEC6;
-    border-radius: 5px;
-    background-image: url('../images/group-571.png');
-    background-size: 640px 450px;
-    background-repeat: no-repeat;
-}
 
 
 .legal-header {
     width: 400px;
     height: 100px;
-    
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;

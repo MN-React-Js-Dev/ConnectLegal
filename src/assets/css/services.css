@@ -3,13 +3,35 @@
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 5%;
-    /* padding: 5%; */
+    padding: 2%;
+    display: flex;   
+    border: 1px black solid;
+}
+
+@media screen and (max-width:768px) {
+    .services-container {
+        flex-direction: column;
+    }
+}
+
+.clients-header {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    /* border: 1px black solid; */
 }
+
+.client-test {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    border: 1px black solid;
+}
+
+.client-desc {
+    width: 20%;
+    border: 1px black solid;
+}
+
+
 
 /* @media only screen and(max-width: 480px) {
     .services-container {
@@ -37,25 +59,23 @@
     background-color: white;
     display: flex;
     flex-direction: column;
-    /* margin-right: 40%; */
-    width: 100%;
-    /* border: 1px solid black; */
+    border: 1px solid black;
    
 }
 
 .services-right-container {
    display: flex;
    flex-direction: row;
-   width: 100%;
-   /* border: 1px solid black; */
+   /* width: 100%; */
+   border: 1px solid black;
 }
 
 
 .client-says {
     display: flex;
     flex-direction: column;
-    align-items: left;
-    justify-content: left;
+    /* align-items: left;
+    justify-content: left; */
     padding: 5%;
 }
 
@@ -99,18 +119,7 @@ color: #208C84;
 
 }
 
-.body-text1 {
-width: 525px;
-height: 220px;
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 167.5%;
-/* or 40px */
-color: #191919;
-}
 
 .quote-div {
     display:flex ;
