@@ -22,8 +22,8 @@ function App() {
       <Header />
       <FirstContainer />
       <SecondContainer />
-      {/*
       <Thirdcontainer />
+      {/*
       <Home/>
       <br />
       <br />
