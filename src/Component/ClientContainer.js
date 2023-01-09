@@ -48,14 +48,8 @@ const ClientContainer = () => {
             </div>
             
         </div>
-
         <div className='services-right-container col-sm-8'>
-            {/* <div className='client-review-section'>
-               <div className='client-review-msg'>
-                        <img src={cliemtReview}   />
-               </div>
-            </div> */}
-
+             
                 <div className='first-column'>
                     <div>
                         <div className='client-container'>
