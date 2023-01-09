@@ -59,3 +59,9 @@ img.logo_hero_section {
  .heading-h2{
     text-align: inherit;
  }
+ .img-wrapper{
+    overflow:hidden;
+  }
+  .hover-zoom:hover {
+    transform: scale(1.10);
+  }
