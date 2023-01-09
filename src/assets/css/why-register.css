@@ -1,19 +1,9 @@
 .container main-are-you {
-    /* margin-top: 5%;
-    margin-bottom: 5%; */
-    background: #5d9cac;
-    /* padding: 60px; */
+   background: #5d9cac;
 }
 
-.innerContainer {
-    /* display: flex; 
-    justify-content: center;  */
-}
 
 .left-Container-data {
-    /* border: 1px black dashed; */
-    /* width: 650px;
-    height: 500px; */
     background: #C2DDE4;
     border-radius: 5px;
     background-size: 720px 480px;
@@ -22,9 +12,6 @@
 }
 
 .right-Container-data {
-    /* border: 1px black dashed; */
-    /* width: 650px;
-    height: 500px; */
     background: #EDEEC6;
     border-radius: 5px;
     background-size: 640px 450px;
@@ -33,25 +20,13 @@
 }
 
 .left-Container-1 {
-    /* width: 754px;
-height: 718px; */
     background: #E5EAED;
 }
 
 .right-Container-1 {
-    /* width: 754px;
-height: 718px; */
     background: #E5EAED;
 }
 
-/* .Are_You {
-    position: absolute;
-    width: 800px;
-    height: 600.86px;
-
-    background: #C6EEE2;
-    border-radius: 10px;
-} */
 
 .Heading {
     width: 231px;
@@ -93,8 +68,8 @@ height: 718px; */
 }
 
 .Inputclass {
-    width: 444px;
-    height: 35px;
+    /* width: 444px;
+    height: 35px; */
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -115,12 +90,9 @@ height: 718px; */
 }
 
 .f_pasword {
-    margin-left: 326px;
+    /* margin-left: 326px; */
     color: #3DC9A1
 }
-
- 
- 
 
 .prov-services_conatiner-1 {
     height: 930px;
@@ -128,6 +100,7 @@ height: 718px; */
 
 form.form-getstart {
     padding: 4px -6px 0px;
+    margin-left: 42px;
 }
 
 .row.innerContainer {

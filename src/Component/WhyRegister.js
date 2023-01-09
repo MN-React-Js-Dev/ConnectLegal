@@ -12,45 +12,49 @@ import "../assets/css/why-register.css"
 
 const WhyRegister = () => {
   return (
-    <> <section className='prov-services_conatiner-ma'>
-        <div className='conatainer hi_class'>
-          <div className='row'>
-            <div className='col-sm-6'> <img src={Are_You} className='Are_Yousdf' /></div>
-            <div className='col-sm-6'>
-              <form className='form-getstart'>
-                <h1 className='Heading'>Get started</h1>
-                <a className='Headingsub'>Alredy have account? <e style={{ color: "#3DC9A1" }}>sign in</e></a>
-                <br />
-                <br />
-                <div>
-                  <lable className='lableclass'>Name</lable>
+    <>
+      <div className="prov-services_conatiner-1">
+        <div className="row innerContainer">
+          <div className="col-md-6">
+          <div className='col-cst-est'>
+                <img src={Are_You} className='Are_You' />
+              </div>
+          </div>
+          <div Class="col-md-4">
+          <div className='img-container'>
+                <form className='form-getstart'>
+                  <h1 className='Heading'>Get started</h1>
+                  <a className='Headingsub'>Alredy have account? <e style={{ color: "#3DC9A1" }}>sign in</e></a>
                   <br />
-                  <input className='Inputclass' type='text' placeholder='Enter your name'></input>
-                </div>
-                <br />
-                <div>
-                  <lable className='lableclass'>Email Address</lable>
                   <br />
-                  <input className='Inputclass' type='email' placeholder='email@domaim.com' />
-                </div>
-                <br />
-                <div>
-                  <lable className='lableclass'>Password </lable>
+                  <div>
+                    <lable className='lableclass'>Name</lable>
+                    <br />
+                    <input className='Inputclass' type='text' placeholder='Enter your name'></input>
+                  </div>
                   <br />
-                  <input className='Inputclass' type='password' /> 
-                </div>
-                <br />
-                <a className='f_pasword' >forgot Password</a>
-                <br />
-                <br />
-                <br />
-                <button className='Sign_button'>Sign Up</button>
-              </form>
-            </div>
-
+                  <div>
+                    <lable className='lableclass'>Email Address</lable>
+                    <br />
+                    <input className='Inputclass' type='email' placeholder='email@domaim.com' />
+                  </div>
+                  <br />
+                  <div>
+                    <lable className='lableclass'>Password </lable>
+                    <br />
+                    <input className='Inputclass' type='password' /><img className="eye" src={eye} />
+                  </div>
+                  <br />
+                  <a className='f_pasword' >forgot Password</a>
+                  <br />
+                  <br />
+                  <br />
+                  <button className='Sign_button'>Sign Up</button>
+                </form>
+              </div>
           </div>
         </div>
-      </section>
+      </div>
     </>
   )
 }

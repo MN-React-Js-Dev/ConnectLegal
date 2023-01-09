@@ -4,21 +4,19 @@
 }
 
 #mainContentRight1{
-width: 300px;
 height: 500px;
-
+margin-left: 12px;
 background: #C6EEE2;
 }
 #mainContentRight2{
-    width: 300px;
     height: 500px;
 margin-top: 180px;
 background: #C2DDE4;
+margin-left: 12px;
 }
 #mainContentRight3{
-    width: 300px;
     height: 500px;
-
+    margin-left: 12px;
 background: #EDEEC6;
 }
 .card1-number{
@@ -33,7 +31,7 @@ background: #EDEEC6;
     font-weight: 700;
     font-size: 96px;
     color: #156075;
-        text-align: end;
+    text-align: end;
 }
 .card3-number{
     font-family: 'Poppins';
@@ -44,20 +42,20 @@ background: #EDEEC6;
     
 }
 .frame{
-    height: 150px;
-    width: 150px;
-    margin: 28px;
+    height: 100px;
+    width: 100px;
+    margin: 22px;
 
 }
 .frame-1{
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     margin: 28px;
 
 }
 .frame-2{
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     margin: 28px;
 
 }
@@ -177,19 +175,9 @@ color: #191919;
     text-align: center;
     color: #093F38;
 }
-/* .process {
-    position: absolute;
-width: 106px;
-height: 37px;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 167.5%;
-margin-left: 20px;
-margin-top: 1px;
-text-align: center;
-letter-spacing: 0.06em;
-color: #3DC9A1;
-} */
+.img-wrapper{
+    overflow:hidden;
+  }
+  .hover-zoom:hover {
+    transform: scale(1.10);
+  }

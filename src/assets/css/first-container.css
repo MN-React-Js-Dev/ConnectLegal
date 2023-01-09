@@ -44,3 +44,9 @@ background: #3DC9A1;
     background: #f4fefa;
     height: 900px;
 }
+.img-wrapper{
+    overflow:hidden;
+  }
+  .hover-zoom:hover {
+    transform: scale(1.10);
+  }

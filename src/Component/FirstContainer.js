@@ -33,10 +33,10 @@ function FirstContainer() {
                 Legal Consultants with for Legal Advice in
                 UAE
               </p>
-              <img class="btn_hero_long  " src={imgData} />
+              <img class="btn_hero_long hover-zoom" src={imgData} />
             </Col>
             <Col class="col-4">
-              <div className="first-card-data">
+              <div className="first-card-data hover-zoom">
                 <div class="container">
                   <div class="row">
                     <div class="col-sm-2 extra_class_for_css">
@@ -56,7 +56,7 @@ function FirstContainer() {
                 </div>
               </div>
               <br />
-              <div className="second-card-data">
+              <div className="second-card-data hover-zoom">
                 <div class="container">
                   <div class="row">
                     <div class="col-sm-2">
@@ -76,7 +76,7 @@ function FirstContainer() {
                 </div>
               </div>
               <br />
-              <div className="third-card-data">
+              <div className="third-card-data hover-zoom">
                 <div class="container">
                   <div class="row">
                     <div class="col-sm-2">
@@ -96,7 +96,7 @@ function FirstContainer() {
                 </div>
               </div>
               <br />
-              <div className="fourth-card-data">
+              <div className="fourth-card-data  hover-zoom">
                 <div class="container">
                   <div class="row">
                     <div class="col-sm-2">
