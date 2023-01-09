@@ -13,16 +13,15 @@ import "../assets/css/why-register.css"
 const WhyRegister = () => {
   return (
     <>
-      <section className='prov-services_conatiner-1'>
-        <div Class="container mainContainer-1">
-          <div Class="row innerContainer">
-            <div class="col-md-6">
-              <div className='col-cst-est'>
+      <div className="prov-services_conatiner-1">
+        <div className="row innerContainer">
+          <div className="col-md-6">
+          <div className='col-cst-est'>
                 <img src={Are_You} className='Are_You' />
               </div>
-            </div>
-            <div class="col-md-6">
-              <div className='img-container'>
+          </div>
+          <div Class="col-md-4">
+          <div className='img-container'>
                 <form className='form-getstart'>
                   <h1 className='Heading'>Get started</h1>
                   <a className='Headingsub'>Alredy have account? <e style={{ color: "#3DC9A1" }}>sign in</e></a>
@@ -53,11 +52,9 @@ const WhyRegister = () => {
                   <button className='Sign_button'>Sign Up</button>
                 </form>
               </div>
-            </div>
           </div>
         </div>
-      </section>
-
+      </div>
     </>
   )
 }
