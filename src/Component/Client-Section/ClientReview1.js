@@ -3,17 +3,13 @@ import '../../assets/css/clientreview.css'
 import starimages from '../../assets/images/group-81.png';
 import clientimg1 from '../../assets/images/group-70.png';
 import clientname1 from '../../assets/images/group-71.png';
-
+import reviewmsg from '../../assets/images/review-client.png';
 
 const ClientReview1 = () => {
   return (
     <div className='client-review-container'>
         <div className='client-review'>
-            "We quickly had to get legal counsel, 
-            and luckily for us, we found the Connect 
-            Legal platform. The rapport and guidance 
-            was outstanding at all times, prompt”.
-            {/* <img src={reviewmsg} alt="review Msg" /> */}
+            <img src={reviewmsg} alt="review Msg" />            
         </div>
         <div className='cleints-personal'>
             <div className='client-img'>
@@ -24,12 +20,11 @@ const ClientReview1 = () => {
                     <img src={clientname1} alt="client-img" />
                 </div>
             </div> 
-
-            <div className='star-section'>
+            <div className='rating-section'>
                 <div className='star-images'>
                     <img src={starimages} alt="client-img" />
                 </div>
-            </div>  
+            </div>
         </div>
     </div>
   )

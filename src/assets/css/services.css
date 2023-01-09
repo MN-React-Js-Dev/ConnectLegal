@@ -101,29 +101,6 @@
     margin-right: 30%;
 }
 
-.client-review-section {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-left: 2%;
-    margin-right: 2%;
-   
-}
-
-.firstColumn {
-    display: flex;
-    flex-direction: column;
-}
-
-.secondColumn {
-    display: flex;
-    flex-direction: column;
-}
-
-.client-review-msg {
-    display: flex;
-   justify-content: right;                                                                                                                                                                                                          ;
-}
 
 .seeMore {
     width: 389px;
@@ -135,3 +112,21 @@
     line-height: 167.5%;
     color: #208C84;
 }
+
+
+.services-right-container  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.first-column {
+    width: 100%;
+}
+
+
+.client-container {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
