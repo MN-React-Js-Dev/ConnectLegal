@@ -98,7 +98,7 @@ const ProServicesContainer = () => {
 
                   </div>
                   <div className='arrow-img'>
-                  <img src={arrowimg} alt="appointment" />
+                    <img src={arrowimg} alt="appointment" />
                   </div>
               </div>
             </div>

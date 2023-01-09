@@ -13,7 +13,6 @@ import ClientReview3 from './Client-Section/ClientReview3';
 import ClientReview4 from './Client-Section/ClientReview4';
 import ClientReview5 from './Client-Section/ClientReview5';
 import quickly from  '../assets/images/quickly.png'
-import cliemtReview from "../assets/images/clientsmessage.png"
 
 
 const ClientContainer = () => {
@@ -51,11 +50,68 @@ const ClientContainer = () => {
         </div>
 
         <div className='services-right-container col-sm-8'>
-            <div className='client-review-section'>
+            {/* <div className='client-review-section'>
                <div className='client-review-msg'>
                         <img src={cliemtReview}   />
                </div>
-            </div>
+            </div> */}
+
+                <div className='first-column'>
+                    <div>
+                        <div className='client-container'>
+                            <img src={AmgImage} alt="sdsd" />
+                        </div>
+                        <div className='client-container'>
+                            <div className='back-images'>
+                                <div>
+                                    <ClientReview1 />
+                                </div>
+                            </div>
+                        </div>
+                        <div className='client-container'>
+                            <div className='back-images'>
+                                <div>
+                                    <ClientReview2 />
+                                </div>
+                            </div>
+                        </div>
+                        <div className='client-container'>
+                            <div className='back-images'>
+                                <div>
+                                    <ClientReview3 />
+                                </div>
+                            </div>
+                        </div>
+                        <div className='client-container'>
+                            <img src={img4} alt="IMAGE" />
+                        </div>
+                    </div>
+                </div>
+
+                <div className='first-column'>
+                    <div>
+                        <div className='client-container'>
+                            <img src={img5} alt="sdsd" />
+                        </div>
+                    </div>
+                    <div className='client-container'>
+                        <div className='back-images'>
+                            <div>
+                                <ClientReview4 />
+                            </div>
+                        </div>
+                    </div>
+                    <div className='client-container'>
+                        <div className='back-images'>
+                            <div>
+                                <ClientReview5 />
+                            </div>
+                        </div>
+                        </div>
+                    <div className='client-container'>
+                            <img src={img6} alt="sdsd" />
+                    </div>
+                </div>
         </div>
     </div>
   )
