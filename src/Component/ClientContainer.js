@@ -42,7 +42,7 @@ const ClientContainer = () => {
                 </div>
                 <div>
                     <div className='seeMore'>
-                        See More >
+                        See More
                     </div>
                 </div>
             </div>
