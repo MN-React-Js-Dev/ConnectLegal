@@ -7,17 +7,12 @@ import UserMen from '../assets/images/usermen.png'
 import ArrowRight from '../assets/images/right_arrow.png'
 
 
-
-
-
-
-
 const FindLeagalServices = () => {
     return (
         <>
             <section className='legal_consultancy'>
                 <div class="container findleagal_con">
-                    <div class="row">
+                    <div class="row align-items-center justify-content-between">
                         <div class="col-sm-4">
                             <img className='connect-mobile' src={ConectMobileImg} />
                         </div>
@@ -30,13 +25,13 @@ const FindLeagalServices = () => {
                                 <div class="col-sm-4 one_extra">
                                     <span className='custm-span-connact'>
                                         <img className='UserMen_img' src={UserMen} />
-                                        <b>Get Free Legal Advice Services</b>
+                                        <b>Get Free Legal Advice</b>
                                     </span>
                                 </div>
                                 <div class="col-sm-4">
                                     <span className='custm-span-connact'>
                                         <img className='UserMen_img' src={Hostpot} />
-                                        <b> Free online legal consultation</b>
+                                        <b> Free online consultation</b>
                                     </span>
                                 </div>
                             </div>
@@ -44,7 +39,7 @@ const FindLeagalServices = () => {
                                 <div class="col-sm-4">
                                     <span className='custm-span-connact'>
                                         <img className='UserMen_img' src={Comma} />
-                                        <b>Free 24 hour legal advice chat</b>
+                                        <b>Free 24 hour legal advice</b>
                                     </span>
                                 </div>
                                 <div class="col-sm-4">

@@ -12,22 +12,72 @@ import ClientReview2 from './Client-Section/ClientReview2';
 import ClientReview3 from './Client-Section/ClientReview3';
 import ClientReview4 from './Client-Section/ClientReview4';
 import ClientReview5 from './Client-Section/ClientReview5';
+import quickly from  '../assets/images/quickly.png'
+import cliemtReview from "../assets/images/clientsmessage.png"
 
 
 const ClientContainer = () => {
-    return (
-        <div className='services-container '>
-            <div className='services-left-container' >
-                <div className='client-says'>
-                    <div className='client-says-header'>
-                        <div className='heading-client-says'>
+  return (
+    <div className='services-container'>
+        <div className='services-left-container col-sm-4' >
+            <div className='client-says'>
+                <div className='clients-header'>
+                   <div className='client-test'>
+                        <div>
                             <div className='testimonials'>TESTIMONIALS</div>
-                            <div className='what-client-says'>what <br /> client says</div>
                         </div>
-                        <div className='quote-div'>
-                            <div>
-                                <img src={quote} alt="sdsd" height="20%" width="20%" />
-                            </div>
+                        <div>
+                            <div className='what-client-says'>what <br/> client says</div>
+                        </div>
+                   </div>
+                   <div className='client-desc'>
+                        <div>
+                            <img src={quote}  alt="sdsd" height="20%" width="20%" />
+                        </div>
+                   </div>
+                </div>
+                <div>
+                    <div>
+                           <img src={quickly} alt="quickly" />
+                    </div>
+                </div>
+                <div>
+                    <div className='seeMore'>
+                        See More >
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <div className='services-right-container col-sm-8'>
+            <div className='client-review-section'>
+               <div className='client-review-msg'>
+                        <img src={cliemtReview}   />
+               </div>
+            </div>
+        </div>
+    </div>
+  )
+}
+
+export default ClientContainer
+
+
+
+
+
+{/* <div className='services-container '>
+        <div className='services-left-container' >
+            <div className='client-says'>
+                <div className='client-says-header'> 
+                    <div className='heading-client-says'>
+                        <div className='testimonials'>TESTIMONIALS</div>
+                        <div className='what-client-says'>what <br/> client says</div>
+                    </div>
+                    <div className='quote-div'>
+                        <div>
+                        <img src={quote}  alt="sdsd" height="20%" width="20%" />
                         </div>
                     </div>
 
@@ -104,98 +154,5 @@ const ClientContainer = () => {
                 </div>
             </div>
         </div>
-    )
-}
+    </div> */}
 
-export default ClientContainer
-
-
-
-
-{/* <div className='services-left-container' >
-            <div className='client-says'>
-                <div className='client-says-header'>
-                    <div className='heading-client-says'>
-                        <div className='testimonials'>TESTIMONIALS</div>
-                        <div className='what-client-says'>what <br/> client says</div>
-                    </div>
-                    <div className='quote-div'>
-                        <div>
-                        <img src={quote}  alt="sdsd" height="20%" width="20%" />
-                        </div>
-                    </div>
-                    
-                </div>
-                    
-                    <div className='body-text1'>
-                        "We quickly had to get legal counsel, 
-                        and luckily for us, we found the Connect 
-                        Legal platform. The rapport and guidance 
-                        was outstanding at all times, prompt, 
-                        timely, and open for calls and quick updates".
-                    </div>
-            </div>
-            
-</div> */}
-
-
-
-
-{/* <div className='services-right-container'>
-<div className='first-column'>
-    <div>
-        <div className='client-container'>
-            <img src={AmgImage}  alt="sdsd"  />
-        </div>
-        <div className='client-container'>
-            <div className='back-images'>
-                <div>
-                    <ClientReview1 />
-                </div>
-            </div>
-        </div>
-        <div className='client-container'>
-            <div className='back-images-dark'>
-                <div>
-                    <ClientReview2 />
-                </div>
-            </div>
-        </div>
-        <div className='client-container'>
-            <div className='back-images'>
-                <div>
-                    <ClientReview3 />
-                </div>
-            </div>
-        </div>
-        <div className='client-container'>
-            <img src={img4}  alt="sdsd"  />
-        </div>
-    </div>
-</div>
-
-<div className='first-column'>
-    <div>
-        <div className='client-container'>
-            <img src={img5}  alt="sdsd" />
-        </div>
-        <div className='client-container'>
-            <div className='back-images'>
-                <div>
-                    <ClientReview4 />
-                </div>
-            </div>
-        </div>
-        <div className='client-container'>
-            <div className='back-images'>
-                <div>
-                    <ClientReview5 />
-                </div>
-            </div>
-        </div>
-        <div className='client-container'>
-            <img src={img6}  alt="sdsd" />
-        </div>
-    </div>
-</div>
-</div> */}

@@ -44,7 +44,7 @@ function Secondcontainer() {
               <div id="side_panel" class="col-md-6 col-lg-5">
                 <div class="discount-heading">
                   <h2 class="h2 heading-h2">
-                    <span className="green-heading-two">We connect clients and Legal Consultants</span> in one platform.
+                    <span className="green-heading-two heading-data">We connect clients and Legal Consultants</span> in one platform.
                   </h2>
                   <p class="p">
                     Make an appointment with Advocates and Legal consultancy, Today! or chat with a lawyer online for free in Dubai and across UAE now. We provide legal Services by connecting you with the Legal Consultants, Or you can even hire a Lawyer for your Legal issues. You can also read our blogs which provides some of the vital informations.
