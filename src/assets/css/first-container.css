@@ -50,3 +50,35 @@ background: #3DC9A1;
   .hover-zoom:hover {
     transform: scale(1.10);
   }
+
+  .hero-analytics-wrap {
+    text-align: center;
+    margin-top: -140px;
+  }
+
+  .hero-analytics {
+    display: inline-flex;
+    background-color: #fff;
+    padding: 18px 56px 16px 56px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 75px;
+  }
+  p {
+    margin: 0;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #191919;
+  }
+  h1 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 40px;
+    color: #208c84;
+  }
+  .inner-block {
+    margin: 0 80px;
+   
+   
+  }

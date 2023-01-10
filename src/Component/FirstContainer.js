@@ -118,6 +118,30 @@ function FirstContainer() {
             </Col>
           </Row>
         </Container>
+        <div className="hero-analytics-wrap">
+          <div className="hero-analytics">
+
+          {/* <div className="col-md-4"></div>
+          <div className="col-md-4"></div> */}
+          
+            <div className="inner-block col">
+              <h1>257</h1>
+              <p>Lawyers</p>
+            </div>
+            <div className="inner-block">
+              <h1>22</h1>
+              <p>Law Firm Partner</p>
+            </div>
+            <div className="inner-block">
+              <h1>4,700</h1>
+              <p>Solved Cases</p>
+            </div>
+            <div className="inner-block">
+              <h1>2,014</h1>
+              <p>Since</p>
+            </div>
+          </div>
+        </div>
       </section>
     </>
   );
