@@ -48,8 +48,9 @@ background: #3DC9A1;
     overflow:hidden;
   }
   .hover-zoom:hover {
-    transform: scale(1.10);
+    transform: scale(1.1);
   }
+  
 
   .hero-analytics-wrap {
     text-align: center;

@@ -84,8 +84,11 @@ margin: 13px;
     font-size: 48px;  
     font-family: "Poppins";  
 }
-.hover-zoom:hover {
-    transform: scale(1.10);
+.hover-zoom {
+    transition: all ease 0.3s;
+  }
+  .hover-zoom:hover {
+    transform: scale(1.03);
   }
 
   .user-data {
