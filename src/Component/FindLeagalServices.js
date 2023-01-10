@@ -29,7 +29,7 @@ const FindLeagalServices = () => {
                 {/* <img className="" src={ConectMobileImg} /> */}
                 <div className="mobile-wrap">
                   <div className="mobile">
-                    <div className="header">
+                    <div className="header" style={{borderRadius: '30px' }}>
                       <div className="img-wrap">
                         <img className="img-wrap-data" src={GreenLogoImg} />
                       </div>
@@ -109,7 +109,7 @@ const FindLeagalServices = () => {
                           </div>
                         </div>
                       </div>
-                      <div className="inner-card-wrap">
+                      <div className="inner-card-wrap"  style={{borderRadius: '30px' }}>
                         <div className="user-info">
                           <div className="avatar">
                             <img src={clientimg5} alt="client-img" />
