@@ -67,9 +67,6 @@ function secondcontainer() {
                       <span>
                       <b>Jaidev Kumar</b>
                       </span>
-                      <span>
-                      <b>Jaidev Kumar</b>
-                      </span>
                   </div>
                   <br />
                   <div className="user-data hover-zoom">
@@ -85,41 +82,6 @@ function secondcontainer() {
                       <b>Denali Balan</b>{" "}
                     </span>
                   </div>
-
-
-{/* <p className="selected-filter">28/Nov/2022 - 10:40</p>
-                  <div className="header">
-                    <p className="">Answers (3)</p>{" "}
-                    <div className="filter">
-
-                    <Dropdown>
-                        <Dropdown.Toggle variant="" id="dropdown-basic">
-                          Relevant
-                        </Dropdown.Toggle>
-
-                        <Dropdown.Menu>
-                          <Dropdown.Item href="#/action-1">1</Dropdown.Item>
-                          <Dropdown.Item href="#/action-2">2</Dropdown.Item>
-                          <Dropdown.Item href="#/action-3">3</Dropdown.Item>
-                        </Dropdown.Menu>
-                      </Dropdown>
-
-                      <Dropdown className="ml-3">
-                        <Dropdown.Toggle variant="" id="dropdown-basic">
-                          Date
-                        </Dropdown.Toggle>
-
-                        <Dropdown.Menu>
-                          <Dropdown.Item href="#/action-1">7</Dropdown.Item>
-                          <Dropdown.Item href="#/action-2">8</Dropdown.Item>
-                          <Dropdown.Item href="#/action-3">9</Dropdown.Item>
-                        </Dropdown.Menu>
-                      </Dropdown>
-
-                      </div>
-                      </div> */}
-
-                      
                       
                 </div>
               </div>
