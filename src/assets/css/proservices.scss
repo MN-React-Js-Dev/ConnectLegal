@@ -1,0 +1,152 @@
+.prov-services-conatiner {
+  padding: 60px 136px 120px;
+  background-color: #f4fefa;
+  .left-Container {
+    background: #c2dde4;
+    height: 550px;
+    //background-image: url("../images/group-570.png");
+    // background-image: url("../images/group-570.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 16px;
+    .pro-services {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 35px;
+      line-height: 45px;
+      color: #156075;
+      padding-top: 120px;
+      padding-left: 30px;
+      text-align: left;
+    }
+    p.appointment {
+      margin-left: 30px;
+      margin-bottom: 24px;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      color: #191919;
+      line-height: 22px;
+    }
+  }
+  .right-Container {
+    background: #edeec6;
+    background-image: url("../images/group-571.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 16px;
+    height: 550px;
+    h2.legal-header {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 35px;
+      line-height: 45px;
+      padding-top: 80px;
+      padding-left: 30px;
+      color: #3f3309;
+      text-align: left;
+    }
+    p.appointment {
+      margin-left: 30px;
+      margin-bottom: 24px;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      color: #191919;
+      line-height: 22px;
+    }
+  }
+  Button {
+    margin-top: 40px;
+  }
+  .appointment-text {
+    margin-left: 28px;
+    .appointment-text-final {
+      .appointment-sign-text {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 4px 0;
+        .right-sign {
+          padding: 0.5%;
+          height: fit-content;
+          display: flex;
+          align-items: flex-start;
+        }
+
+        .appointment-grp {
+          margin-left: 9px;
+          font-family: "Poppins";
+          font-style: normal;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .left-Container {
+    height: 380px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .right-Container {
+    height: 380px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .appointment {
+    width: 250px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .appointment-grp {
+    width: 120%;
+    height: 150%;
+    font-size: 20%;
+  }
+}
+
+@media screen and (max-width: 575.98px) {
+  .appointment-grp {
+    width: 120%;
+    height: 150%;
+    font-size: 65%;
+  }
+}
+
+@media screen and (max-width: 425.98px) {
+  .right-sign {
+    width: 8%;
+    height: fit-content;
+  }
+}
+
+// .appointment-text-final {
+//   display: flex;
+//   flex-direction: column;
+// }
+
+// .appointment-sign-text {
+//   display: flex;
+//   flex-direction: row;
+//   width: 200%;
+// }
+
+// .arrow-img {
+//   margin-top: 10%;
+//   height: 50%;
+//   width: 50%;
+// }
+
+// .arrow-img:hover {
+//   transform: scale(1.2);
+// }

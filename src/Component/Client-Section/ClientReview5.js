@@ -1,33 +1,41 @@
-import React from 'react'
-import '../../assets/css/clientreview.css'
-import starimages from '../../assets/images/group-81.png';
-import clientimg1 from '../../assets/images/group-82.png';
-import clientname1 from '../../assets/images/group-83.png';
-import reviewmsg from '../../assets/images/review-client.png';
+import React from "react";
+import "../../assets/css/clientreview.css";
+import clientimg1 from "../../assets/images/group-82.png";
+import { FaStar } from "react-icons/fa";
 
 const ClientReview5 = () => {
   return (
-    <div className='client-review-container'>
-    <div className='client-review'>
-        <img src={reviewmsg} alt="review Msg" />            
-    </div>
-    <div className='cleints-personal'>
-        <div className='client-img'>
-            <div className='images-client1'>
-                <img src={clientimg1} alt="client-img" />
-            </div>
-            <div className='name-client1'>
-                <img src={clientname1} alt="client-img" />
-            </div>
-        </div> 
-        <div className='rating-section'>
-            <div className='star-images'>
-                <img src={starimages} alt="client-img" />
-            </div>
+    <div className="client-review-container">
+      <div className="client-review">
+        <p className="review-msg">
+          "We quickly had to get legal counsel, and luckily for us, we found the
+          Connect Legal platform. The rapport and guidance was outstanding at
+          all times, prompt”.
+        </p>
+      </div>
+      <div className="client-personal">
+        <div className="client-name">
+          <div className="images-client">
+            <img src={clientimg1} alt="client-img" />
+          </div>
+          <div className="name-client">
+            <h5>Richard Evans </h5>
+            <p>CEO Company</p>
+          </div>
         </div>
+        <div className="rating-section">
+          <div className="star-rate">
+            <FaStar />
+            <FaStar />
+            <FaStar />
+            <FaStar />
+            <FaStar />
+          </div>
+          <p>Since 2 months</p>
+        </div>
+      </div>
     </div>
-</div>
-  )
-}
+  );
+};
 
 export default ClientReview5;

@@ -1,0 +1,155 @@
+.first-main-container {
+  background-image: url("../images/Rectangle 57 (1).jpg");
+  padding: 45px 120px 170px 70px;
+
+  .first-card-data {
+    background: #d8f4ec;
+    .hero-row {
+      border-color: #3dc9a1 !important;
+      color: #208c84;
+      p {
+        color: #208c84;
+      }
+    }
+  }
+  .second-card-data {
+    background: #c2dde4;
+    .hero-row {
+      border-color: #156075 !important;
+      color: #156075 !important;
+      p {
+        color: #156075 !important;
+      }
+    }
+  }
+  .third-card-data {
+    background: #edeec6;
+    .hero-row {
+      border-color: #3f3309 !important;
+      color: #3f3309 !important;
+      p {
+        color: #3f3309 !important;
+      }
+    }
+  }
+  .fourth-card-data {
+    background: #3dc9a1;
+    .hero-row {
+      border-color: #208c84 !important;
+      color: #fff !important;
+      p {
+        color: #fff !important;
+      }
+    }
+  }
+  .hero-row-wrap {
+    > div {
+      width: 75%;
+      margin-left: auto;
+      @media screen and (max-width: 992px) {
+        width: 100%;
+      }
+      .hero-row {
+        padding: 13px 54px;
+        gap: 48px;
+        border-bottom: 4px solid;
+        border-right: 4px solid;
+        align-items: center;
+        margin-bottom: 12px;
+        .icon-wrap {
+          img {
+            width: 48px;
+          }
+        }
+        .text-wrap {
+          h3 {
+            font-size: 22px;
+            line-height: 34px;
+            margin: 0;
+            font-weight: 600;
+          }
+          p {
+            font-size: 15px;
+            line-height: 24px;
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+
+  .hero-logo {
+    width: 290px;
+  }
+  .content-text-wrap {
+    margin: 56px 0 32px 0;
+    h1.text-white {
+      font-size: 36px;
+      line-height: 54px;
+    }
+  }
+}
+.hero-analytics-wrap {
+  text-align: center;
+  margin-top: -140px;
+  .hero-analytics {
+    display: inline-flex;
+    background-color: #fff;
+    padding: 18px 56px 16px 56px;
+    border-radius: 10px;
+    margin: 0 auto;
+    .inner-block {
+      margin: 0 80px;
+      h1 {
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 40px;
+        color: #208c84;
+      }
+      p {
+        margin: 0;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
+        color: #191919;
+      }
+    }
+  }
+}
+.first-main-container .btn-hero-long {
+  width: 10px;
+}
+
+.online-Legal-text-color {
+  color: #3dc9a1;
+}
+// .first-child-container {
+//   padding: 50px;
+// }
+
+.hero-section-first {
+  background: #f4fefa;
+  height: 630px;
+}
+
+.cstm_img_btn {
+  width: 208px;
+  text-align: left;
+}
+
+.main-container-data.container {
+  /* width: 1545px; */
+  margin-left: 28px;
+  /* margin-right: 79px !important; */
+  padding: 100px;
+}
+.we_coonect_section {
+  background: #f4fefa;
+  height: 900px;
+}
+.img-wrapper {
+  overflow: hidden;
+}
+.hover-zoom:hover {
+  transform: scale(1.1);
+}

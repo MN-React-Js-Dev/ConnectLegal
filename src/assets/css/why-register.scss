@@ -1,0 +1,92 @@
+.why-register-wrap {
+  padding: 40px 136px 100px;
+  background: #e5eaed;
+  .inner-container {
+    background-color: #fff;
+    padding: 46px;
+    box-shadow: 0px 10px 10px rgb(0 0 0 / 10%);
+    .content-wrap {
+      padding: 0;
+    }
+    .form-wrap {
+      form.form-getstart {
+        padding: 4px -6px 0px;
+        margin-left: 42px;
+
+        .Heading {
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 34px;
+          line-height: 40px;
+
+          text-align: center;
+          color: #191919;
+        }
+
+        .Headingsub {
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 15px;
+          line-height: 30px;
+          color: #191919;
+          text-align: center;
+          display: block;
+          margin-bottom: 32px;
+        }
+
+        .lableclass {
+          width: 49px;
+          height: 30px;
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 30px;
+          color: #191919;
+        }
+
+        .Inputclass {
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          width: 100%;
+          padding: 2px 16px;
+          line-height: 35px;
+          color: #191919;
+          background: transparent;
+          border: none;
+          border-bottom: 1px solid #000000;
+        }
+        .eye {
+          width: 23px;
+          margin-left: -44px;
+          margin-bottom: 18px;
+        }
+
+        .f-pasword {
+          color: #3dc9a1;
+          display: block;
+          text-transform: capitalize;
+          text-align: right;
+        }
+        .Sign-button {
+          color: white;
+          max-width: 300px;
+          height: 56px;
+          margin: 32px auto 0;
+          background: #208c84;
+          border: none;
+          width: 300px;
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+.row.innerContainer {
+  padding: 72px 6px 0px;
+}
