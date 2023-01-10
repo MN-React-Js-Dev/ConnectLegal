@@ -26,14 +26,7 @@ function App() {
       <Thirdcontainer />
       <Home />
       <FindLeagalServices />
-      {/* <ProServicesContainer /> */}
-      {/* <ClientContainer /> */}
-      {/* <LookingForLawyerSection /> */}
-      
-      {/* <Home/> */}
-      {/* <FindLeagalServices /> */}
-      {/* <LookingForLawyerSection /> */}
-      
+      <LookingForLawyerSection />
       <ProServicesContainer />
       <ClientContainer />
       <Register />  
