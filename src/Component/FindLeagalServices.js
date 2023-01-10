@@ -152,7 +152,7 @@ const FindLeagalServices = () => {
                                         <b>Free 24 hour legal advice</b>
                                     </span>
                                 </div>
-                                <div class="col-sm-4 one_extra">
+                                <div class="col-sm-4 one_extra ">
                                     <span className='custm-span-connact'>
                                         <img className='UserMen_img' src={ClarityEmployee} />
                                         <b>Hire a Lawyer</b>
@@ -160,7 +160,7 @@ const FindLeagalServices = () => {
                                 </div>
                             </div>
                             <br />
-                            <div className='button_and_arrow'>
+                            <div className='button_and_arrow hover-zoom'>
                                 <button className='green_btn'>Contact now</button>
                                 <span className='button_arrow_handle' ><img src={ArrowRight} /></span>
                             </div>

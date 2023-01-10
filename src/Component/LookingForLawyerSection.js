@@ -24,9 +24,9 @@ const LookingForLawyerSection = () => {
                     Select the one right for you by office location, practice area or language.
                     Compare lawyers by their expertise and rating.
                   </p>
-                  <div className='button_and_arrow'>
+                  <div className='button_and_arrow hover-zoom'>
                     <button className='green_btn'>Contact now</button>
-                    <span className='button_arrow_handle' ><img src={ArrowRight} /></span>
+                    <span className='button_arrow_handle ' ><img c src={ArrowRight} /></span>
                   </div>
                 </div>
               </div>
