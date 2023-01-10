@@ -4,6 +4,10 @@ import img1 from "../assets/images/Ellipse 3.png";
 import img2 from "../assets/images/Group 148.png";
 import img3 from "../assets/images/Group 149.png";
 import imgData from "../assets/images/Group 65.jpg";
+import Dropdown from "react-bootstrap/Dropdown";
+import DropdownButton from "react-bootstrap/DropdownButton";
+
+import Button from "react-bootstrap/Button";
 
 function secondcontainer() {
   return (
@@ -19,12 +23,53 @@ function secondcontainer() {
                     but the majority have suffered alteration in some form, by
                     injected humour, or randomised words which don't look even
                     slightly believable.</p>
-                  <b> <p className="">Answers (3)</p> </b>
+
+                    <p className="date-text">28/Nov/2022 - 10:40</p>  
+                    <div className="selected-filter">
+                      <div className="answers-con">
+                        <b> <p className="answers">Answers (3)</p> </b>
+                      </div>
+                      <div className="dropdown-container mb-3">
+                          <div className="green-border">
+                            <Dropdown>
+                                <Dropdown.Toggle variant="" id="dropdown-basic">
+                                  Relevant
+                                </Dropdown.Toggle>
+
+                                <Dropdown.Menu>
+                                  <Dropdown.Item href="#/action-1">1</Dropdown.Item>
+                                  <Dropdown.Item href="#/action-2">2</Dropdown.Item>
+                                  <Dropdown.Item href="#/action-3">3</Dropdown.Item>
+                                </Dropdown.Menu>
+                            </Dropdown>
+
+                          </div>
+                          <div className="green-border">
+                            <Dropdown >
+                              <Dropdown.Toggle variant="" id="dropdown-basic">
+                                  Date
+                              </Dropdown.Toggle>
+
+                              <Dropdown.Menu>
+                                <Dropdown.Item href="#/action-1">7</Dropdown.Item>
+                                <Dropdown.Item href="#/action-2">8</Dropdown.Item>
+                                <Dropdown.Item href="#/action-3">9</Dropdown.Item>
+                              </Dropdown.Menu>
+                            </Dropdown>
+                              
+                          </div>
+                      </div>
+                    </div>
+
+
                   <div className="user-data hover-zoom">
-                    <img src={img1} className="img-data" />
-                    <span>
+                    <img src={img1} className="img-data" />  
+                      <span>
                       <b>Jaidev Kumar</b>
-                    </span>
+                      </span>
+                      <span>
+                      <b>Jaidev Kumar</b>
+                      </span>
                   </div>
                   <br />
                   <div className="user-data hover-zoom">
@@ -40,6 +85,42 @@ function secondcontainer() {
                       <b>Denali Balan</b>{" "}
                     </span>
                   </div>
+
+
+{/* <p className="selected-filter">28/Nov/2022 - 10:40</p>
+                  <div className="header">
+                    <p className="">Answers (3)</p>{" "}
+                    <div className="filter">
+
+                    <Dropdown>
+                        <Dropdown.Toggle variant="" id="dropdown-basic">
+                          Relevant
+                        </Dropdown.Toggle>
+
+                        <Dropdown.Menu>
+                          <Dropdown.Item href="#/action-1">1</Dropdown.Item>
+                          <Dropdown.Item href="#/action-2">2</Dropdown.Item>
+                          <Dropdown.Item href="#/action-3">3</Dropdown.Item>
+                        </Dropdown.Menu>
+                      </Dropdown>
+
+                      <Dropdown className="ml-3">
+                        <Dropdown.Toggle variant="" id="dropdown-basic">
+                          Date
+                        </Dropdown.Toggle>
+
+                        <Dropdown.Menu>
+                          <Dropdown.Item href="#/action-1">7</Dropdown.Item>
+                          <Dropdown.Item href="#/action-2">8</Dropdown.Item>
+                          <Dropdown.Item href="#/action-3">9</Dropdown.Item>
+                        </Dropdown.Menu>
+                      </Dropdown>
+
+                      </div>
+                      </div> */}
+
+                      
+                      
                 </div>
               </div>
 
