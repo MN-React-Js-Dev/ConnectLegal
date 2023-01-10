@@ -9,6 +9,10 @@ import Hostpot from "../assets/images/hostpot.png";
 import Comma from "../assets/images/comma.png";
 import UserMen from "../assets/images/usermen.png";
 import clientimg1 from "../assets/images/group-70.png";
+import clientimg2 from "../assets/images/Ellipse 3 (1).png";
+import clientimg3 from "../assets/images/Ellipse 5.png";
+import clientimg4 from "../assets/images/Ellipse 7.png";
+import clientimg5 from "../assets/images/Ellipse 8.png";
 import { FaArrowRight } from "react-icons/fa";
 import { FaCrown } from "react-icons/fa";
 import { FaGlobe } from "react-icons/fa";
@@ -67,12 +71,12 @@ const FindLeagalServices = () => {
                       <div className="inner-card-wrap">
                         <div className="user-info">
                           <div className="avatar">
-                            <img src={clientimg1} alt="client-img" />
+                            <img src={clientimg2} alt="client-img" />
                             <span className="online"></span>
                           </div>
                           <div className="meta">
-                            <h4>Madhav Yadav</h4>
-                            <p>Abu Dhabi,UAE</p>
+                            <h4>Rashid Ali</h4>
+                            <p>Dubai, UAE</p>
                           </div>
                         </div>
                         <div className="premium-badge">
@@ -83,36 +87,36 @@ const FindLeagalServices = () => {
                       <div className="inner-card-wrap">
                         <div className="user-info">
                           <div className="avatar">
-                            <img src={clientimg1} alt="client-img" />
+                            <img src={clientimg3} alt="client-img" />
                             <span className="online"></span>
                           </div>
                           <div className="meta">
-                            <h4>Madhav Yadav</h4>
-                            <p>Abu Dhabi,UAE</p>
+                            <h4>Arundhati Chawla</h4>
+                            <p>Qatar</p>
                           </div>
                         </div>
                       </div>
                       <div className="inner-card-wrap">
                         <div className="user-info">
                           <div className="avatar">
-                            <img src={clientimg1} alt="client-img" />
+                            <img src={clientimg4} alt="client-img" />
                             <span className="online"></span>
                           </div>
                           <div className="meta">
-                            <h4>Madhav Yadav</h4>
-                            <p>Abu Dhabi,UAE</p>
+                            <h4>Rehan Abdul</h4>
+                            <p>Turkey</p>
                           </div>
                         </div>
                       </div>
                       <div className="inner-card-wrap">
                         <div className="user-info">
                           <div className="avatar">
-                            <img src={clientimg1} alt="client-img" />
+                            <img src={clientimg5} alt="client-img" />
                             <span className="online"></span>
                           </div>
                           <div className="meta">
-                            <h4>Madhav Yadav</h4>
-                            <p>Abu Dhabi,UAE</p>
+                            <h4>William Wright</h4>
+                            <p>Abu Dhabi, UAE</p>
                           </div>
                         </div>
                       </div>
